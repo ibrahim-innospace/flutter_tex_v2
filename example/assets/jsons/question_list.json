@@ -1,0 +1,687 @@
+{
+    "data": [
+        {
+            "_id": "664ae4ab82292a36d085dc74",
+            "createdBy": "6645dea4bac6b5735513dbf1",
+            "updatedBy": "6645dea4bac6b5735513dbf1",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p class=\"MsoListParagraph\" style=\"mso-add-space: auto; text-align: justify; text-indent: -22.95pt; line-height: 200%; mso-list: l0 level1 lfo1; tab-stops: right 271.8pt; margin: 1.0pt 0in 1.0pt 22.95pt;\"><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';\"><span style=\"mso-list: Ignore;\"><span style=\"font: 7.0pt 'Times New Roman';\">&nbsp; &nbsp; </span></span></span></strong><!--[endif]--><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: Lecture; mso-bidi-font-family: 'Times New Roman';\">&permil;KwU KvGVi L&acute;&pound;GK Avbyf&bdquo;wgGKi mvG^ </span></strong><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\">60</span></strong><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">&deg;</span></span></strong><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\"> </span></strong><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: Lecture; mso-bidi-font-family: 'Times New Roman';\">&circ;KvGY </span></strong><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\">200 N</span></strong><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: Lecture; mso-bidi-font-family: 'Times New Roman';\"> ej &laquo;&frac14;viv Uvbv nG&oelig;Q| e&Otilde;&sect;wi Dci Avbyf&bdquo;wgGKi w`GK Kvh&AElig;Kix ej KZ?</span></strong></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">200 N</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p class=\"MsoNormal\" style=\"text-align: justify; text-indent: -22.95pt; line-height: 200%; tab-stops: 135.0pt; margin: 1.0pt 0in 1.0pt 22.95pt;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\">100 N</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">174 N </span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Zero</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">(b); F = F</span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">&cent;</span></span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> cos 60</span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">&deg;</span></span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> = 200 </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">&acute;</span></span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> cos 60</span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">&deg;</span></span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> = 100 N </span></p>",
+            "difficulty": "Medium",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Engineering",
+                "_id": "66433d84ccd8b287f357e642"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Physics 1st paper",
+                "_id": "66433dc8ccd8b287f357e685"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Chapter 01: Vector",
+                "_id": "66433df3ccd8b287f357e6f7"
+            },
+            "associatedWithTopic": {
+                "topicName": "Vector Basic & Resultant Vector",
+                "_id": "66433e9accd8b287f357e7d4"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "BUET",
+                    "year": [
+                        "2002",
+                        "2004"
+                    ],
+                    "_id": "66434377ccd8b287f357f396"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "createdAt": "2024-05-20T05:50:35.760Z",
+            "updatedAt": "2024-05-20T05:50:35.760Z",
+            "__v": 0,
+            "correctAnswer": "<p class=\"MsoNormal\" style=\"text-align: justify; text-indent: -22.95pt; line-height: 200%; tab-stops: 135.0pt; margin: 1.0pt 0in 1.0pt 22.95pt;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\">100 N</span></p>"
+        },
+        {
+            "_id": "664ae47282292a36d085dc0f",
+            "createdBy": "6645dea4bac6b5735513dbf1",
+            "updatedBy": "6645dea4bac6b5735513dbf1",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;KvGbv &Otilde;&copy;vGb evZvGm </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">30 km/hr </span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;eGM cw&oslash;g w`GKi mvG^ </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">45</span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">&deg;</span></span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> &circ;KvGY `w&THORN;Y w`GK eBGQ&AElig;| evZvGm &circ;eGMi c&fnof;e&AElig;gyLx DcvsGki gvb KZ </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">km/hr? </span></strong></p>",
+            "options": [
+                {
+                    "text": "<p class=\"MsoNormal\" style=\"text-align: justify; text-indent: -22.95pt; line-height: 200%; tab-stops: 135.0pt; margin: 1.0pt 0in 1.0pt 22.95pt;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\">25.32</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p class=\"MsoNormal\" style=\"text-align: justify; text-indent: -22.95pt; line-height: 200%; tab-stops: 135.0pt; margin: 1.0pt 0in 1.0pt 22.95pt;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\">15.32</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p class=\"MsoNormal\" style=\"text-align: justify; text-indent: -22.95pt; line-height: 200%; tab-stops: 135.0pt; margin: 1.0pt 0in 1.0pt 22.95pt;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\">5.32</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p class=\"MsoNormal\" style=\"text-align: justify; text-indent: -22.95pt; line-height: 200%; tab-stops: 135.0pt; margin: 1.0pt 0in 1.0pt 22.95pt;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\">35.32</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Engineering",
+                "_id": "66433d84ccd8b287f357e642"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Physics 1st paper",
+                "_id": "66433dc8ccd8b287f357e685"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Chapter 01: Vector",
+                "_id": "66433df3ccd8b287f357e6f7"
+            },
+            "associatedWithTopic": {
+                "topicName": "test",
+                "_id": "66459abcbac6b57355138c71"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "BUET",
+                    "year": [
+                        "2002",
+                        "2006"
+                    ],
+                    "_id": "66434377ccd8b287f357f396"
+                },
+                {
+                    "institutionShortName": "KUET",
+                    "year": [
+                        "2016",
+                        "2014"
+                    ],
+                    "_id": "6645a9d8bac6b573551398b8"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "createdAt": "2024-05-20T05:49:38.640Z",
+            "updatedAt": "2024-05-20T05:49:38.640Z",
+            "__v": 0,
+            "correctAnswer": "<p class=\"MsoNormal\" style=\"text-align: justify; text-indent: -22.95pt; line-height: 200%; tab-stops: 135.0pt; margin: 1.0pt 0in 1.0pt 22.95pt;\"><span style=\"mso-bidi-font-size: 10.0pt; line-height: 200%; font-family: 'Times New Roman','serif';\">15.32</span></p>"
+        },
+        {
+            "_id": "664ae44682292a36d085dbcc",
+            "createdBy": "6645dea4bac6b5735513dbf1",
+            "updatedBy": "6645dea4bac6b5735513dbf1",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">10 N</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> gvGbi &permil;KwU ej </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">X</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> A&THORN; eivei wK&Igrave;qv KiGj </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Y</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> A&THORN; eivei &permil;i Dcvsk nGe@</span></strong></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">10 N</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">5 N</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">45 N</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">25 N</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">10 N ssfsf sdfvsd f</span></p>",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Engineering",
+                "_id": "66433d84ccd8b287f357e642"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Physics 1st paper",
+                "_id": "66433dc8ccd8b287f357e685"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Chapter 01: Vector",
+                "_id": "66433df3ccd8b287f357e6f7"
+            },
+            "associatedWithTopic": {
+                "topicName": "test",
+                "_id": "66459abcbac6b57355138c71"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "BUET",
+                    "year": [],
+                    "_id": "66434377ccd8b287f357f396"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "createdAt": "2024-05-20T05:48:54.136Z",
+            "updatedAt": "2024-05-20T05:48:54.136Z",
+            "__v": 0,
+            "correctAnswer": "<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">5 N</span></p>"
+        },
+        {
+            "_id": "664ae43682292a36d085dbb4",
+            "createdBy": "66433ae78ca02ca304fc789e",
+            "updatedBy": "66433ae78ca02ca304fc789e",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p>what is your age?</p>",
+            "options": [
+                {
+                    "text": "<p>1</p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>2</p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>3</p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>4</p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "<p>asas</p>",
+            "difficulty": "Medium",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Computer Science",
+                "_id": "66433e34ccd8b287f357e770"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Programming Languages",
+                "_id": "66433f5fccd8b287f357e92c"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Object-Oriented Programming",
+                "_id": "66433fe6ccd8b287f357ea83"
+            },
+            "associatedWithTopic": {
+                "topicName": "Classes and Objects",
+                "_id": "6643409dccd8b287f357ed12"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "DU",
+                    "year": [
+                        "2003"
+                    ],
+                    "_id": "66433f20ccd8b287f357e8c4"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "createdAt": "2024-05-20T05:48:38.521Z",
+            "updatedAt": "2024-05-20T05:48:38.521Z",
+            "__v": 0,
+            "correctAnswer": "<p>2</p>"
+        },
+        {
+            "_id": "664ae40e82292a36d085db90",
+            "createdBy": "66433ae78ca02ca304fc789e",
+            "updatedBy": "66433ae78ca02ca304fc789e",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p>What is your name?</p>",
+            "options": [
+                {
+                    "text": "<p>q</p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>e</p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>ee</p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>123</p>",
+                    "isCorrect": true
+                }
+            ],
+            "explanation": "<p>asas sas as as asasa</p>",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Computer Science",
+                "_id": "66433e34ccd8b287f357e770"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Programming Languages",
+                "_id": "66433f5fccd8b287f357e92c"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Object-Oriented Programming",
+                "_id": "66433fe6ccd8b287f357ea83"
+            },
+            "associatedWithTopic": {
+                "topicName": "Classes and Objects",
+                "_id": "6643409dccd8b287f357ed12"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "BUET",
+                    "year": [
+                        "2003",
+                        "2008"
+                    ],
+                    "_id": "66434377ccd8b287f357f396"
+                },
+                {
+                    "institutionShortName": "DU",
+                    "year": [
+                        "2006",
+                        "2003"
+                    ],
+                    "_id": "66433f20ccd8b287f357e8c4"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "createdAt": "2024-05-20T05:47:58.548Z",
+            "updatedAt": "2024-05-20T05:47:58.548Z",
+            "__v": 0,
+            "correctAnswer": "<p>q</p>"
+        },
+        {
+            "_id": "664ae3f782292a36d085db6c",
+            "createdBy": "6645dea4bac6b5735513dbf1",
+            "updatedBy": "6645dea4bac6b5735513dbf1",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">nGZ w&laquo;&frac14;ZxwUi kxl&AElig; we&plusmn;`y ch&AElig;&macr;&brvbar; Aw&acirc;Z &circ;f&Ugrave;i nGe D&Uacute; &circ;f&Ugrave;i&laquo;&frac14;Gqi jw&ordm;&not;| </span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">iGK hw` </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">N + 1</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> msL&Aring;K ev&uuml;wewk&Oacute;&iexcl; &circ;KvGbv e&uuml;fzGRi </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">N</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> msL&Aring;K ev&uuml; </span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">iGK hw` </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">N + 1</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> msL&Aring;K ev</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">i</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">wewk&Oacute;&iexcl; &circ;KvGbv e&uuml;fzGRi </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">N</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> msL&Aring;K ev&uuml; </span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">wecixZK&Igrave;Gg &permil; &circ;f&Ugrave;i&laquo;&frac14;Gqi jw&ordm;&not; wbG`&AElig;k KiGe| </span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "<p><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">w&ograve;fzR </span></strong></p>",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Engineering",
+                "_id": "66433d84ccd8b287f357e642"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Physics 1st paper",
+                "_id": "66433dc8ccd8b287f357e685"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Chapter 01: Vector",
+                "_id": "66433df3ccd8b287f357e6f7"
+            },
+            "associatedWithTopic": {
+                "topicName": "Vector Basic & Resultant Vector",
+                "_id": "66433e9accd8b287f357e7d4"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "DU",
+                    "year": [
+                        "2001",
+                        "2016"
+                    ],
+                    "_id": "66433f20ccd8b287f357e8c4"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "createdAt": "2024-05-20T05:47:35.864Z",
+            "updatedAt": "2024-05-20T05:47:35.864Z",
+            "__v": 0,
+            "correctAnswer": "<p><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">iGK hw` </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">N + 1</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> msL&Aring;K ev&uuml;wewk&Oacute;&iexcl; &circ;KvGbv e&uuml;fzGRi </span><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">N</span><span style=\"font-size: 12.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> msL&Aring;K ev&uuml; </span></p>"
+        },
+        {
+            "_id": "664345cbccd8b287f357f779",
+            "createdBy": "66433c73ccd8b287f357e587",
+            "updatedBy": "66433ddaccd8b287f357e6b4",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "Lloyd Zulauf PhD",
+            "options": [],
+            "explanation": "",
+            "difficulty": "Easy",
+            "questionType": "",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Mathematics",
+                "_id": "66433defccd8b287f357e6dc"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Algebra",
+                "_id": "66433fbdccd8b287f357e9d3"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Linear Equations",
+                "_id": "66434044ccd8b287f357ebbb"
+            },
+            "associatedWithTopic": {
+                "topicName": "Solving Quadratic Equations",
+                "_id": "66434119ccd8b287f357eee2"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "RUET",
+                    "year": [
+                        "2024",
+                        "2021"
+                    ],
+                    "_id": "664343ceccd8b287f357f3df"
+                },
+                {
+                    "institutionShortName": "BUET",
+                    "year": [
+                        "2003",
+                        "2002",
+                        "2001"
+                    ],
+                    "_id": "66434377ccd8b287f357f396"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": false,
+            "isTestMode": false,
+            "createdAt": "2024-05-14T11:06:51.950Z",
+            "updatedAt": "2024-05-26T06:16:37.143Z",
+            "__v": 0
+        },
+        {
+            "_id": "6643452eccd8b287f357f751",
+            "createdBy": "66433c73ccd8b287f357e587",
+            "updatedBy": "66433c73ccd8b287f357e587",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">mij Qw&plusmn;`Z &Otilde;&middot;&plusmn;`b m&Aacute;&middot;&reg;&sup2; &permil;KwU e&Otilde;&sect;i &circ;eM </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">3 </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: SimSun; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold;\">m s</span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 12.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: SimSun; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-bidi-font-weight: bold;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: SimSun; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold;\">1</span></sup><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> miY ZLb </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">4 meter</span><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">| Avevi, &circ;eM hLb </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">4 </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: SimSun; color: black; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold;\">m s</span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 12.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: SimSun; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; color: black; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-bidi-font-weight: bold;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: SimSun; color: black; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold;\">1</span></sup><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> miY ZLb </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">3 meter</span><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">| &circ;`vjGbi</span><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> we&Otilde;&brvbar;vi I ch&AElig;vqKvj wbY&AElig;q Ki|</span></strong></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 8.0pt; font-family: 'Times New Roman','serif';\">5 m, 6.28 sec</span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 8.0pt; font-family: SulSym;\"><span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;</span></span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 8.0pt; font-family: 'Times New Roman','serif';\">5 m, 628 sec</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 8.0pt; font-family: 'Times New Roman','serif';\">5 m, 62.8 sec</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 8.0pt; font-family: 'Times New Roman','serif';\">5.25 m, 6.28 sec</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 8.0pt; font-family: 'Times New Roman','serif';\">5.5 m, 6.28 sec</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">(a) ;<span style=\"mso-spacerun: yes;\">&nbsp; </span>v = </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">\\[\\sqrt{A2-x2}\\]</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"><span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3 = </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">\\[\\sqrt{A2-42}\\] .............. (i) ; 4 = </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">\\[\\sqrt{A2-32}\\] ................ (ii)</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"><span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>\\[\\frac{(i)2}{(ii)2}\\] </span>ev,<span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"><span style=\"mso-spacerun: yes;\">&nbsp; </span>\\[\\frac{9}{16}\\] = \\[\\frac{A2-16}{A2-9}\\] </span>ev, <span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">9A<sup>2</sup> </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"> 81 = 16A<sup>2</sup> </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"> 256</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"><span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>ev, <span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">7A<sup>2</sup> = 175 </span>ev, <span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">A<sup>2</sup> = 25 </span>ev, <span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">A = 5 m</span></p>\n<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"><span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">\\</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"><span style=\"mso-spacerun: yes;\">&nbsp; </span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"> = \\[\\frac{3}{\\sqrt{52-42}}\\] = \\[\\frac{3}{\\sqrt{9}}\\] = \\[\\frac{3}{3}\\] = 1 rad s</span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span></sup><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">1</span></sup></p>\n<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"><span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">\\</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"> T = \\[\\frac{2\\pi }{\\omega }\\] = 2</span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">p</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">s = 6.28 s</span></p>",
+            "difficulty": "Medium",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Mathematics",
+                "_id": "66433defccd8b287f357e6dc"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Algebra",
+                "_id": "66433fbdccd8b287f357e9d3"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Linear Equations",
+                "_id": "66434044ccd8b287f357ebbb"
+            },
+            "associatedWithTopic": {
+                "topicName": "Solving Linear Equations",
+                "_id": "664340efccd8b287f357ee66"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "BUET",
+                    "year": [
+                        "2003",
+                        "2023"
+                    ],
+                    "_id": "66434377ccd8b287f357f396"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "createdAt": "2024-05-14T11:04:14.542Z",
+            "updatedAt": "2024-05-15T10:08:17.338Z",
+            "__v": 0,
+            "correctAnswer": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 8.0pt; font-family: 'Times New Roman','serif';\">5 m, 6.28 sec</span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 8.0pt; font-family: SulSym;\"><span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;</span></span></p>"
+        },
+        {
+            "_id": "664344ccccd8b287f357f64c",
+            "createdBy": "66433c73ccd8b287f357e587",
+            "updatedBy": "66433c73ccd8b287f357e587",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;KvGbv mij Qw&plusmn;`Z &Otilde;&middot;&plusmn;`b MwZm&Aacute;&middot;&reg;&sup2; KYvi we&Otilde;&brvbar;vi </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">3 cm</span><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> &permil;es mG<span style=\"letter-spacing: -.2pt;\">e&AElig;v&oelig;P &circ;eM </span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; letter-spacing: -.2pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">6.24 c </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: SimSun; color: black; letter-spacing: -.2pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold;\">m s</span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 12.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: SimSun; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; color: black; letter-spacing: -.2pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol; mso-bidi-font-weight: bold;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 12.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: SimSun; color: black; letter-spacing: -.2pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-weight: bold;\">1</span></sup><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; letter-spacing: -.2pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> nGj, KYvwUi ch&AElig;vqKvj KZ?</span></strong></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif';\">&nbsp;5 s<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif';\">&nbsp;1 s</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif';\">3 s<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;</span></span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif';\">6 s</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif';\">4 s</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">(c) ; v<sub>max</sub> = </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">A </span><span style=\"mso-spacerun: yes;\">&nbsp;</span></p>",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Computer Science",
+                "_id": "66433e34ccd8b287f357e770"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Data Structures",
+                "_id": "66433fa6ccd8b287f357e9aa"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Trees and Graphs",
+                "_id": "6643402eccd8b287f357eb71"
+            },
+            "associatedWithTopic": {
+                "topicName": "Binary Trees",
+                "_id": "664340dcccd8b287f357ee29"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "DU",
+                    "year": [
+                        "2023"
+                    ],
+                    "_id": "66433f20ccd8b287f357e8c4"
+                },
+                {
+                    "institutionShortName": "DU",
+                    "year": [
+                        "2006",
+                        "2004"
+                    ],
+                    "_id": "66433f20ccd8b287f357e8c4"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "createdAt": "2024-05-14T11:02:36.874Z",
+            "updatedAt": "2024-05-15T10:08:17.338Z",
+            "__v": 0,
+            "correctAnswer": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif';\">3 s<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;</span></span></p>"
+        },
+        {
+            "_id": "6643443eccd8b287f357f4ae",
+            "createdBy": "66433c73ccd8b287f357e587",
+            "updatedBy": "66433c73ccd8b287f357e587",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><strong style=\"mso-bidi-font-weight: normal;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">\\[\\frac{\\mathbf{d2x}}{\\mathbf{dt2}}\\] + 9x = 0</span><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> mgxKiY &circ;^GK &circ;K&OElig;wYK K&Aacute;&middot;vG&acirc;i gvb wbY&AElig;q Ki|</span></strong></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">a = </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">2</span></sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">x</span><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> &permil;i mvG^ Zzjbv KGi cvB</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">\\[\\frac{dx}{dt}\\] = v, \\[\\frac{d2x}{dt2}\\] = a</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> = 3 rad s</span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">1</span></sup></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">\\[\\frac{d2x}{dt2}\\] + </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">2</span></sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">x = 0</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">\\[\\frac{d2x}{dt2}\\] + 9x = 0 </span><span style=\"mso-spacerun: yes;\">&nbsp;</span>ev, <span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">a = </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"> 3<sup>2</sup>x</span></p>\n<table class=\"MsoNormalTable\" style=\"width: 100.0%; border-collapse: collapse; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-border-insidev: .5pt solid windowtext;\" border=\"0\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr style=\"mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes;\">\n<td style=\"width: 64.02%; border: none; border-right: solid windowtext 1.0pt; mso-border-right-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;\" valign=\"top\" width=\"64%\">\n<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"><span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>a = </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"> </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">2</span></sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">x</span> &permil;i mvG^ Zzjbv KGi cvB,</p>\n<p class=\"MsoNormal\" style=\"margin-left: 22.3pt; text-align: justify; text-indent: -22.3pt; line-height: normal; tab-stops: right 270.9pt;\"><span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\"> = 3 rad s</span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; color: black; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span></sup><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">1</span></sup></p>\n</td>\n<td style=\"width: 35.98%; border: none; mso-border-left-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt;\" valign=\"top\" width=\"35%\">\n<p class=\"MsoNormal\" style=\"text-align: justify; line-height: normal; tab-stops: .25in;\"><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; font-family: 'Times New Roman','serif'; color: black;\">\\[\\frac{dx}{dt}\\] = v, \\[\\frac{d2x}{dt2}\\] = a</span></p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission",
+                "_id": "66433d02ccd8b287f357e5cc"
+            },
+            "associatedWithCourse": {
+                "courseName": "Computer Science",
+                "_id": "66433e34ccd8b287f357e770"
+            },
+            "associatedWithSubject": {
+                "subjectName": "Programming Languages",
+                "_id": "66433f5fccd8b287f357e92c"
+            },
+            "associatedWithChapter": {
+                "chapterName": "Object-Oriented Programming",
+                "_id": "66433fe6ccd8b287f357ea83"
+            },
+            "associatedWithTopic": {
+                "topicName": "Inheritance and Polymorphism",
+                "_id": "664340b3ccd8b287f357eda1"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "DU",
+                    "year": [
+                        "2004",
+                        "2020"
+                    ],
+                    "_id": "66433f20ccd8b287f357e8c4"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "createdAt": "2024-05-14T11:00:14.782Z",
+            "updatedAt": "2024-05-15T10:08:17.338Z",
+            "__v": 0,
+            "correctAnswer": "<p><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">a = </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> </span><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: 'Times New Roman'; mso-fareast-font-family: Calibri; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">w</span></span><sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">2</span></sup><span style=\"font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; color: black; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">x</span><span style=\"font-size: 11.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> &permil;i mvG^ Zzjbv KGi cvB</span></p>"
+        }
+    ],
+    "pagination": {
+        "totalItems": 77,
+        "itemsPerPage": 10,
+        "currentPage": 1,
+        "totalPages": 8
+    }
+}

@@ -36,11 +36,12 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
 
   List<Quiz> quizList = [
     Quiz(
-      statement: r"""<h3>What is the correct form of quadratic formula?</h3>""",
+      statement:
+          r"""<p><span style=\"font-size: 11.0pt; mso-bidi-font-size: 10.0pt; line-height: 115%; font-family: 'Times New Roman','serif'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">200 N</span></p>""",
       options: [
         QuizOption(
           "id_1",
-          r""" <h2>(A)   \(x = {-b \pm \sqrt{b^2+4ac} \over 2a}\)</h2>""",
+          r""" <p><span class=\"__se__katex katex\" data-exp=\"\\frac{F - 32}{212 - 32} = \\frac{45 - 3}{107 - 3} \\Rightarrow F = 104.69^\\circ\\text{F}\" data-font-size=\"1em\" style=\"font-size: 16px\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mfrac><mrow><mi>F</mi><mo>−</mo><mn>32</mn></mrow><mrow><mn>212</mn><mo>−</mo><mn>32</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>45</mn><mo>−</mo><mn>3</mn></mrow><mrow><mn>107</mn><mo>−</mo><mn>3</mn></mrow></mfrac><mo>⇒</mo><mi>F</mi><mo>=</mo><mn>104.6</mn><msup><mn>9</mn><mo>∘</mo></msup><mtext>F</mtext></mrow><annotation encoding=\"application/x-tex\">\\frac{F - 32}{212 - 32} = \\frac{45 - 3}{107 - 3} \\Rightarrow F = 104.69^\\circ\\text{F}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:2.1297em;vertical-align:-0.7693em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.3603em;\"><span style=\"top:-2.314em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\">212</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mord\">32</span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.677em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mord\">32</span></span></span></span><span class=\"vlist-s\"></span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7693em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:2.0908em;vertical-align:-0.7693em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.3214em;\"><span style=\"top:-2.314em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\">107</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mord\">3</span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.677em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\">45</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mord\">3</span></span></span></span><span class=\"vlist-s\"></span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7693em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">⇒</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7241em;\"></span><span class=\"mord\">104.6</span><span class=\"mord\"><span class=\"mord\">9</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7241em;\"><span style=\"top:-3.113em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span><span class=\"mord text\"><span class=\"mord\">F</span></span></span></span></span><br></p>""",
         ),
         QuizOption(
           "id_2",
@@ -130,11 +131,15 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
                       .options
                       .map((QuizOption option) {
                     return TeXViewGroupItem(
-                        rippleEffect: false,
-                        id: option.id,
-                        child: TeXViewDocument(option.option,
-                            style: const TeXViewStyle(
-                                padding: TeXViewPadding.all(10))));
+                      rippleEffect: false,
+                      id: option.id,
+                      child: TeXViewDocument(
+                        option.option,
+                        style: const TeXViewStyle(
+                          padding: TeXViewPadding.all(10),
+                        ),
+                      ),
+                    );
                   }).toList(),
                   selectedItemStyle: TeXViewStyle(
                       borderRadius: const TeXViewBorderRadius.all(10),

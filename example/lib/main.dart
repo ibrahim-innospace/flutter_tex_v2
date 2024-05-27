@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tex/flutter_tex.dart';
+import 'package:flutter_tex_example/test/tex_custom_all_in_one_pageview.dart';
 import 'package:flutter_tex_example/tex_view_document_example.dart';
 import 'package:flutter_tex_example/tex_view_fonts_example.dart';
 import 'package:flutter_tex_example/tex_view_image_video_example.dart';
@@ -83,6 +84,12 @@ class _TeXViewFullExampleState extends State<TeXViewFullExample> {
             height: 30,
             color: Colors.transparent,
           ),
+          getExampleButton(
+              context,
+              'Quiz Example Custom',
+              TeXViewQuizCustomExample(
+                renderingEngine: renderingEngine,
+              )),
           getExampleButton(
               context,
               'Quiz Example',
