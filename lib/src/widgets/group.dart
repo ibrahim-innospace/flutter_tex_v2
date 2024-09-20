@@ -5,30 +5,16 @@ import 'package:flutter_tex/src/models/widget_meta.dart';
 import 'package:flutter_tex/src/utils/style_utils.dart';
 
 class TeXViewGroup extends TeXViewWidget {
-  /// A list of [TeXViewWidget].
   final List<TeXViewGroupItem> children;
-
-  /// On Tap Callback when a child is tapped.
   final Function(String id)? onTap;
-
-  /// On Tap Callback when a child is tapped.
   final Function(List<String> ids)? onItemsSelection;
-
-  /// Style TeXView Widget with [TeXViewStyle].
   final TeXViewStyle? style;
-
-  /// Style TeXView Widget with [TeXViewStyle].
   final TeXViewStyle? selectedItemStyle;
-
-  /// Style TeXView Widget with [TeXViewStyle].
   final TeXViewStyle? normalItemStyle;
-
   final bool single;
 
-  // doanhnh: lưu các ids được chọn để hiển thị đúng style cho item
-  final String? lastSelectedId;
-
-  final List<String>? selectedIds;
+  // Add a new field to store the currently selected item
+  final String? selectedItemId;
 
   const TeXViewGroup({
     required this.children,
@@ -36,8 +22,7 @@ class TeXViewGroup extends TeXViewWidget {
     this.style,
     this.selectedItemStyle,
     this.normalItemStyle,
-    this.lastSelectedId,
-    this.selectedIds,
+    this.selectedItemId, // Add this parameter
   })  : onItemsSelection = null,
         single = true;
 
@@ -47,8 +32,7 @@ class TeXViewGroup extends TeXViewWidget {
     this.style,
     this.selectedItemStyle,
     this.normalItemStyle,
-    this.lastSelectedId,
-    this.selectedIds,
+    this.selectedItemId, // Add this parameter
   })  : onTap = null,
         single = false;
 
@@ -74,11 +58,10 @@ class TeXViewGroup extends TeXViewWidget {
         'meta': meta().toJson(),
         'data': children.map((child) => child.toJson()).toList(),
         'single': single,
-        'lastSelectedId': lastSelectedId,
-        'selectedIds': selectedIds,
         'style': style?.initStyle() ?? teXViewDefaultStyle,
         'selectedItemStyle':
             selectedItemStyle?.initStyle() ?? teXViewDefaultStyle,
         'normalItemStyle': normalItemStyle?.initStyle() ?? teXViewDefaultStyle,
+        'selectedItemId': selectedItemId, // Add this line
       };
 }
