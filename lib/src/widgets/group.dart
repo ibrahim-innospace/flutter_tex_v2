@@ -22,25 +22,29 @@ class TeXViewGroup extends TeXViewWidget {
 
   /// Style TeXView Widget with [TeXViewStyle].
   final TeXViewStyle? normalItemStyle;
-
   final bool single;
 
-  const TeXViewGroup(
-      {required this.children,
-      required this.onTap,
-      this.style,
-      this.selectedItemStyle,
-      this.normalItemStyle})
-      : onItemsSelection = null,
+  // Add a new field to store the currently selected item
+  final String? selectedItemId;
+
+  const TeXViewGroup({
+    required this.children,
+    required this.onTap,
+    this.style,
+    this.selectedItemStyle,
+    this.normalItemStyle,
+    this.selectedItemId, // Add this parameter
+  })  : onItemsSelection = null,
         single = true;
 
-  const TeXViewGroup.multipleSelection(
-      {required this.children,
-      required this.onItemsSelection,
-      this.style,
-      this.selectedItemStyle,
-      this.normalItemStyle})
-      : onTap = null,
+  const TeXViewGroup.multipleSelection({
+    required this.children,
+    required this.onItemsSelection,
+    this.style,
+    this.selectedItemStyle,
+    this.normalItemStyle,
+    this.selectedItemId, // Add this parameter
+  })  : onTap = null,
         single = false;
 
   @override
@@ -69,5 +73,6 @@ class TeXViewGroup extends TeXViewWidget {
         'selectedItemStyle':
             selectedItemStyle?.initStyle() ?? teXViewDefaultStyle,
         'normalItemStyle': normalItemStyle?.initStyle() ?? teXViewDefaultStyle,
+        'selectedItemId': selectedItemId, // Add this line
       };
 }
