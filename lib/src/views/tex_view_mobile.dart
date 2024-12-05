@@ -45,7 +45,7 @@ class TeXViewState extends State<TeXView> with AutomaticKeepAliveClientMixin {
             _height = height;
           });
         }
-        // widget.onRenderFinished?.call(height);
+        widget.onRenderFinished?.call(height);
       });
     super.initState();
   }
