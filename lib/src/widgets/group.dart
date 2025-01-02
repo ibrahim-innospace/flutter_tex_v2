@@ -22,15 +22,10 @@ class TeXViewGroup extends TeXViewWidget {
 
   /// Style TeXView Widget with [TeXViewStyle].
   final TeXViewStyle? normalItemStyle;
-
-  /// Whether the group allows single or multiple selection.
   final bool single;
 
-  /// Selected item ID (for single selection).
+  // Add a new field to store the currently selected item
   final String? selectedItemId;
-
-  /// List of selected item IDs (for multiple selection).
-  final List<String>? selectedItemIds;
 
   const TeXViewGroup({
     required this.children,
@@ -38,9 +33,8 @@ class TeXViewGroup extends TeXViewWidget {
     this.style,
     this.selectedItemStyle,
     this.normalItemStyle,
-    this.selectedItemId, // Add selectedItemId for single selection
+    this.selectedItemId, // Add this parameter
   })  : onItemsSelection = null,
-        selectedItemIds = null,
         single = true;
 
   const TeXViewGroup.multipleSelection({
@@ -49,9 +43,8 @@ class TeXViewGroup extends TeXViewWidget {
     this.style,
     this.selectedItemStyle,
     this.normalItemStyle,
-    this.selectedItemIds,
+    this.selectedItemId, // Add this parameter
   })  : onTap = null,
-        selectedItemId = null,
         single = false;
 
   @override
@@ -80,7 +73,6 @@ class TeXViewGroup extends TeXViewWidget {
         'selectedItemStyle':
             selectedItemStyle?.initStyle() ?? teXViewDefaultStyle,
         'normalItemStyle': normalItemStyle?.initStyle() ?? teXViewDefaultStyle,
-        'programmaticallySelectedId': selectedItemId,
-        'programmaticallySelectedIds': selectedItemIds,
+        'selectedItemId': selectedItemId, // Add this line
       };
 }
