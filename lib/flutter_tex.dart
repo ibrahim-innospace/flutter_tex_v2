@@ -22,3 +22,4 @@ export 'package:flutter_tex/src/widgets/markdown.dart';
 export 'package:flutter_tex/src/widgets/video.dart';
 export 'package:flutter_tex/src/widgets/widget.dart';
 export 'package:flutter_tex/src/widgets/details.dart';
+export 'package:flutter_tex/src/widgets/customdetails.dart';

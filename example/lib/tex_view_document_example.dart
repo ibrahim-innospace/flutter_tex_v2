@@ -117,6 +117,30 @@ class TeXViewDocumentExamples extends StatelessWidget {
       body: TeXView(
         renderingEngine: renderingEngine,
         child: TeXViewColumn(children: [
+          TeXViewCustomDetails(
+            title: "Explanation:",
+            iconSize: 14,
+            style: TeXViewStyle(
+              fontStyle: TeXViewFontStyle(
+                fontSize: 14,
+                fontWeight: TeXViewFontWeight.w600,
+              ),
+              backgroundColor: Color(0xFFF3EAFF),
+              padding: TeXViewPadding.all(10),
+              // margin: TeXViewMargin.all(10),
+              borderRadius: TeXViewBorderRadius.only(topLeft: 8, topRight: 8),
+            ),
+            body: TeXViewDocument(
+              "Bangladesh is home to several major rivers, including the Ganges, Brahmaputra, and Meghna. However, the Surma River, while significant, is not classified among the major rivers. It flows through the northeastern part of the country, contributing to the region's rich biodiversity and agricultural landscape.",
+              style: TeXViewStyle(
+                backgroundColor: Color(0xFFF3EAFF),
+                padding: TeXViewPadding.all(10),
+                // margin: TeXViewMargin.all(10),
+                borderRadius:
+                    TeXViewBorderRadius.only(bottomLeft: 8, bottomRight: 8),
+              ),
+            ),
+          ),
           TeXExample.introduction,
           TeXExample.mathML,
           TeXExample.quadraticEquation,
@@ -136,12 +160,12 @@ class TeXViewDocumentExamples extends StatelessWidget {
           margin: TeXViewMargin.all(10),
           elevation: 10,
           borderRadius: TeXViewBorderRadius.all(25),
-          border: TeXViewBorder.all(
-            TeXViewBorderDecoration(
-                borderColor: Colors.blue,
-                borderStyle: TeXViewBorderStyle.solid,
-                borderWidth: 5),
-          ),
+          // border: TeXViewBorder.all(
+          //   TeXViewBorderDecoration(
+          //       borderColor: Colors.blue,
+          //       borderStyle: TeXViewBorderStyle.solid,
+          //       borderWidth: 5),
+          // ),
           backgroundColor: Colors.white,
         ),
       ),
