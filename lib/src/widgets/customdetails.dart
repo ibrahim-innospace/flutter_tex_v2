@@ -41,6 +41,7 @@ class TeXViewCustomDetails implements TeXViewWidget {
         padding: 10px;
         gap: 12px;
         min-height: ${iconSize}px; /* Ensure minimum height matches icon */
+        -webkit-tap-highlight-color: transparent;
       }
 
       .svg-arrow-details summary::-webkit-details-marker {
