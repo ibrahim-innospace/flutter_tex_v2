@@ -83,7 +83,7 @@
             "options": [
                 {
                     "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">wcMGg&acute;&Yuml;</span></p>",
-                    "isCorrect": false
+                    "isCorrect": true
                 },
                 {
                     "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&permil;bRvBg</span></p>",
