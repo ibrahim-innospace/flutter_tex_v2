@@ -27,3 +27,4 @@ flutter:
   assets:
     - assets/
     - assets/fonts/
+    - assets/flutter_tex.css

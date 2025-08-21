@@ -60,7 +60,7 @@ class _TeXViewFullExampleState extends State<TeXViewFullExample> {
               context, 'TeXWidget Example', const TeXWidgetExamples()),
           getExampleButton(
               context, 'TeX Examples', const TeXViewDocumentExamples()),
-          getExampleButton(context, 'Quiz Example', const TeXViewQuizExample()),
+          getExampleButton(context, 'Quiz Example', const ModernTeXViewQuiz()),
           getExampleButton(context, 'TeX2SVG Example', const TeX2SVGExample()),
           getExampleButton(
               context, 'Markdown Examples', const TeXViewMarkdownExamples()),

@@ -38,3 +38,8 @@
     font-family: 'subaccuz_regular';
     src: url("fonts/SubaccuzRegular.ttf");
 }
+
+@font-face {
+    font-family: 'Lecture';
+    src: url("fonts/Lecture.ttf");
+}

@@ -3,6 +3,16 @@ import 'package:flutter_tex/flutter_tex.dart';
 
 class TeXViewFontsExamples extends StatelessWidget {
   const TeXViewFontsExamples({super.key});
+  String convertToHTML(String input) {
+    return input.replaceAllMapped(RegExp(r'\\([\[\]])'), (match) {
+      if (match.group(1) == '[') {
+        return '\\(';
+      } else if (match.group(1) == ']') {
+        return '\\)';
+      }
+      return match.group(0) as String;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +23,10 @@ class TeXViewFontsExamples extends StatelessWidget {
       ),
       body: TeXView(
           child: TeXViewColumn(children: [
-            _teXViewWidget("Army", 'army'),
+            _teXViewWidget(
+                convertToHTML(
+                    r"""<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;Kvb we&aelig;vbx &lsquo;mvBGUvmj&rsquo; k&otilde;wU c&Eacute;^g e&Aring;envi KGib? </span></p>"""),
+                'Lecture'),
             _teXViewWidget("Budhrg", 'budhrg'),
             _teXViewWidget("CELTG", 'celtg'),
             _teXViewWidget("Hillock", 'hillock'),
