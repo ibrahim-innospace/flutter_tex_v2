@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tex/flutter_tex.dart';
+import './custom_widget.dart';
 
 class QuizResponse {
   final String message;
@@ -474,40 +475,41 @@ class _ModernTeXViewQuizState extends State<ModernTeXViewQuiz> {
       persistentFooterButtons: [
         // Bottom Button
         Container(
-          padding: const EdgeInsets.only(
-              left: 16.0, right: 16.0, top: 2, bottom: 20),
+          margin: const EdgeInsets.all(0),
+          // color: Colors.white,
+          padding: const EdgeInsets.only(top: 8, bottom: 20),
           child: SizedBox(
-            width: double.infinity,
-            height: 50,
-            child: ElevatedButton(
-              onPressed: showResult
-                  ? (currentQuizIndex < quizList.length - 1
-                      ? _nextQuestion
-                      : null)
-                  : (currentQuiz.selectedOptionIds.isNotEmpty
-                      ? _checkAnswer
-                      : null),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xFF7C4DFF),
-                foregroundColor: Colors.white,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                elevation: 0,
-              ),
-              child: Text(
-                showResult
-                    ? (currentQuizIndex < quizList.length - 1
-                        ? 'Next Question'
-                        : 'Finish')
-                    : 'Check',
-                style: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
-            ),
-          ),
+              width: double.infinity,
+              height: 50,
+              child: AnimatedButton(
+                  width: double.infinity,
+                  borderRadius: 8,
+                  height: 50,
+                  gradientColors: const [
+                    Color(0xFF852DFE),
+                    Color(0xFFAD72FE),
+                  ],
+                  child: Text(
+                    showResult
+                        ? (currentQuizIndex < quizList.length - 1
+                            ? 'Next Question'
+                            : 'Finish')
+                        : 'Check',
+                    style: const TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w700,
+                      color: Colors.white,
+                    ),
+                  ),
+                  onPressed: () {
+                    showResult
+                        ? (currentQuizIndex < quizList.length - 1
+                            ? _nextQuestion()
+                            : null)
+                        : (currentQuiz.selectedOptionIds.isNotEmpty
+                            ? _checkAnswer()
+                            : null);
+                  })),
         ),
       ],
       body: Column(
