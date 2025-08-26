@@ -31,7 +31,7 @@ dev_dependencies:
 
 flutter:
   assets:
-    - packages/flutter_tex/core/mathjax_core.js
-    - packages/flutter_tex/core/flutter_tex.js
-    - packages/flutter_tex/core/flutter_tex.css
-    - packages/flutter_tex/core/flutter_tex.html
+    - packages/flutter_tex_v2/core/mathjax_core.js
+    - packages/flutter_tex_v2/core/flutter_tex.js
+    - packages/flutter_tex_v2/core/flutter_tex.css
+    - packages/flutter_tex_v2/core/flutter_tex.html

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tex/flutter_tex.dart';
+import 'package:flutter_tex_v2/flutter_tex.dart';
 
 String _markdownFlutterTeX = r"""
 # flutter_tex
@@ -132,7 +132,7 @@ For Web support you need to put `<script src="assets/packages/flutter_tex/js/flu
 In your Dart code, you can use like:
 
 ```dart
-import 'package:flutter_tex/flutter_tex.dart'; 
+import 'package:flutter_tex_v2/flutter_tex.dart'; 
 ```
 
 Make sure to setup `TeXRederingServer` before rendering TeX:

@@ -179,7 +179,7 @@ By default, macOS apps running in a sandboxed environment (which is the standard
 In your Dart code, you can use like:
 
 ```dart
-import 'package:flutter_tex/flutter_tex.dart'; 
+import 'package:flutter_tex_v2/flutter_tex.dart'; 
 ```
 
 Make sure to setup `TeXRederingServer` before rendering TeX:
@@ -259,7 +259,7 @@ A high-performance, pure Flutter solution for displaying mathematical notations.
 ```dart
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_tex/flutter_tex.dart';
+import 'package:flutter_tex_v2/flutter_tex.dart';
 
 main() async {
   await TeXRenderingServer.start();

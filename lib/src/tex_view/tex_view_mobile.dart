@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_tex/flutter_tex.dart';
-import 'package:flutter_tex/src/tex_server/tex_rendering_server_mobile.dart';
-import 'package:flutter_tex/src/tex_view/utils/core_utils.dart';
+import 'package:flutter_tex_v2/flutter_tex.dart';
+import 'package:flutter_tex_v2/src/tex_server/tex_rendering_server_mobile.dart';
+import 'package:flutter_tex_v2/src/tex_view/utils/core_utils.dart';
 import 'package:webview_flutter_plus/webview_flutter_plus.dart'
     show WebViewWidget;
 

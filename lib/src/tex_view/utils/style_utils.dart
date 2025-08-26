@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:flutter_tex/flutter_tex.dart';
+import 'package:flutter_tex_v2/flutter_tex.dart';
 
 String teXViewDefaultStyle = "position: relative;";
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tex/flutter_tex.dart';
+import 'package:flutter_tex_v2/flutter_tex.dart';
 
 ///A pure Flutter Widget to render Mathematics / Maths, Physics and Chemistry, Statistics / Stats Equations based on LaTeX.
 class TeX2SVG extends StatefulWidget {

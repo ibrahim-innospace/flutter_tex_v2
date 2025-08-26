@@ -3,9 +3,9 @@ import 'dart:js_interop';
 import 'dart:ui_web';
 import 'package:flutter/material.dart';
 import 'package:web/web.dart';
-import 'package:flutter_tex/src/tex_server/tex_rendering_server_web.dart';
-import 'package:flutter_tex/src/tex_view/tex_view.dart';
-import 'package:flutter_tex/src/tex_view/utils/core_utils.dart';
+import 'package:flutter_tex_v2/src/tex_server/tex_rendering_server_web.dart';
+import 'package:flutter_tex_v2/src/tex_view/tex_view.dart';
+import 'package:flutter_tex_v2/src/tex_view/utils/core_utils.dart';
 
 class TeXViewState extends State<TeXView>
     with AutomaticKeepAliveClientMixin<TeXView> {
