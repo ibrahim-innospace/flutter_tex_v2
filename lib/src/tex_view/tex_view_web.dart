@@ -11,7 +11,7 @@ class TeXViewState extends State<TeXView>
     with AutomaticKeepAliveClientMixin<TeXView> {
   final String _iframeId = UniqueKey().toString();
   final HTMLIFrameElement iframeElement = HTMLIFrameElement()
-    ..src = "assets/packages/flutter_tex/core/flutter_tex.html"
+    ..src = "assets/packages/flutter_tex_v2/core/flutter_tex.html"
     ..style.height = '100%'
     ..style.width = '100%'
     ..style.border = '0';

@@ -64,7 +64,7 @@ class TeXRenderingServer {
 class TeXRenderingController {
   final WebViewControllerPlus webViewControllerPlus = WebViewControllerPlus();
   final String baseUrl =
-      "http://localhost:${TeXRenderingServer.port!}/packages/flutter_tex/core/flutter_tex.html";
+      "http://localhost:${TeXRenderingServer.port!}/packages/flutter_tex_v2/core/flutter_tex.html";
 
   RenderingControllerCallback? onPageFinishedCallback,
       onTapCallback,

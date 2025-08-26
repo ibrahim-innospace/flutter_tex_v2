@@ -117,13 +117,13 @@ Add following code in your `<project-directory>/ios/Runner/Info.plist`
 ```
 
 ### Web
-For Web support you need to put `<script src="assets/packages/flutter_tex/js/flutter_tex.js"></script>` and `<script type="text/javascript">window.flutterWebRenderer = "canvaskit";</script>` in `<head>` tag of your `<project-directory>/web/index.html` like this.
+For Web support you need to put `<script src="assets/packages/flutter_tex_v2/js/flutter_tex.js"></script>` and `<script type="text/javascript">window.flutterWebRenderer = "canvaskit";</script>` in `<head>` tag of your `<project-directory>/web/index.html` like this.
 
 ```html
 <head>
     ...
     ...
-    <script src="assets/packages/flutter_tex/js/flutter_tex.js"></script>
+    <script src="assets/packages/flutter_tex_v2/js/flutter_tex.js"></script>
 </head>
 ```
 
