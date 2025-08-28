@@ -412,13 +412,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.13.1"
-  webview_flutter_plus:
+  webview_flutter_plus_v2:
     dependency: transitive
     description:
-      name: webview_flutter_plus
-      sha256: "23331da0a7bdab893f648d1ef9a3a756fc3c1f0529123f622466d4a174807287"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: modifiedver
+      resolved-ref: "8b54735e0481797ec8f2c5db740219e276a8f5dc"
+      url: "https://github.com/ibrahim-innospace/webview_flutter_plus_v2.git"
+    source: git
     version: "0.4.19"
   webview_flutter_wkwebview:
     dependency: transitive

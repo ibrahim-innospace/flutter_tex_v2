@@ -6,9 +6,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tex_v2/flutter_tex.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:webview_flutter_plus/webview_flutter_plus.dart';
+import 'package:webview_flutter_plus_v2/webview_flutter_plus_v2.dart';
 
-/// A rendering server for TeXView. This is backed by a [LocalhostServer] and a [WebViewControllerPlus] for Andtoid, iOS and MacOS.
+/// A rendering server for TeXView. This is backed by a [LocalhostServer] and a [WebViewControllerPlusV2] for Andtoid, iOS and MacOS.
 /// Make sure to call [start] before using the [TeXRenderingServer].
 class TeXRenderingServer {
   static final LocalhostServer _server = LocalhostServer();
@@ -27,7 +27,7 @@ class TeXRenderingServer {
   static Future<String> teX2SVG(
       {required String math, required TeXInputType teXInputType}) {
     try {
-      return teXRenderingController.webViewControllerPlus
+      return teXRenderingController.webViewControllerPlusV2
           .runJavaScriptReturningResult(
               "mathJaxLiteDOM.teX2SVG(${jsonEncode(math)}, '${teXInputType.value}');")
           .then((data) {
@@ -62,7 +62,8 @@ class TeXRenderingServer {
 /// communication between the WebView and the Dart code, handling events like
 /// page finished loading, tap events, and TeX view rendered events.
 class TeXRenderingController {
-  final WebViewControllerPlus webViewControllerPlus = WebViewControllerPlus();
+  final WebViewControllerPlusV2 webViewControllerPlusV2 =
+      WebViewControllerPlusV2();
   final String baseUrl =
       "http://localhost:${TeXRenderingServer.port!}/packages/flutter_tex_v2/core/flutter_tex.html";
 
@@ -70,10 +71,10 @@ class TeXRenderingController {
       onTapCallback,
       onTeXViewRenderedCallback;
 
-  Future<WebViewControllerPlus> initController() {
-    var controllerCompleter = Completer<WebViewControllerPlus>();
+  Future<WebViewControllerPlusV2> initController() {
+    var controllerCompleter = Completer<WebViewControllerPlusV2>();
 
-    webViewControllerPlus
+    webViewControllerPlusV2
       ..addJavaScriptChannel(
         'OnTapCallback',
         onMessageReceived: (onTapCallbackMessage) =>
@@ -90,7 +91,7 @@ class TeXRenderingController {
           onPageFinished: (String url) {
             _debugPrint("Page finished loading: $url");
             onPageFinishedCallback?.call(url);
-            controllerCompleter.complete(webViewControllerPlus);
+            controllerCompleter.complete(webViewControllerPlusV2);
           },
           onNavigationRequest: (request) {
             if (request.url.contains(
@@ -115,7 +116,7 @@ class TeXRenderingController {
       ));
 
     if (!Platform.isMacOS) {
-      webViewControllerPlus.setBackgroundColor(Colors.transparent);
+      webViewControllerPlusV2.setBackgroundColor(Colors.transparent);
     }
 
     return controllerCompleter.future;

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tex_v2/flutter_tex.dart';
 import 'package:flutter_tex_v2/src/tex_server/tex_rendering_server_mobile.dart';
 import 'package:flutter_tex_v2/src/tex_view/utils/core_utils.dart';
-import 'package:webview_flutter_plus/webview_flutter_plus.dart'
+import 'package:webview_flutter_plus_v2/webview_flutter_plus_v2.dart'
     show WebViewWidget;
 
 /// A Webview based Widget to render Mathematics / Maths, Physics and Chemistry, Statistics / Stats Equations based on LaTeX with full HTML and JavaScript support.
@@ -56,7 +56,7 @@ class TeXViewState extends State<TeXView>
             return SizedBox(
               height: height,
               child: WebViewWidget(
-                controller: teXRenderingController.webViewControllerPlus,
+                controller: teXRenderingController.webViewControllerPlusV2,
               ),
             );
           } else {
@@ -87,7 +87,7 @@ class TeXViewState extends State<TeXView>
     var currentRawData = getRawData(widget);
 
     if (currentRawData != _oldRawData) {
-      await teXRenderingController.webViewControllerPlus
+      await teXRenderingController.webViewControllerPlusV2
           .runJavaScript('initTeXViewMobile($currentRawData);');
       _oldRawData = currentRawData;
     }
