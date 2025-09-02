@@ -62,7 +62,7 @@ class TeXViewState extends State<TeXView> {
     double height = double.parse(h.toString()) + widget.heightOffset;
 
     heightStreamController.add(height);
-    widget.onRenderFinished?.call(height);
+    // widget.onRenderFinished?.call(height);
   }
 
   @override

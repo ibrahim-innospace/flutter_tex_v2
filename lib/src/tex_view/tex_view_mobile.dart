@@ -35,7 +35,7 @@ class TeXViewState extends State<TeXView> {
     teXRenderingController.onTeXViewRenderedCallback = (h) async {
       double height = double.parse(h.toString()) + widget.heightOffset;
       heightStreamController.add(height);
-      widget.onRenderFinished?.call(height);
+      // widget.onRenderFinished?.call(height);
     };
 
     super.initState();
@@ -85,6 +85,8 @@ class TeXViewState extends State<TeXView> {
       if (widget.loadingWidgetBuilder != null) _teXViewHeight = initialHeight;
       await teXRenderingController.webViewControllerPlus
           .runJavaScript("initTeXView($currentRawData);");
+      teXRenderingController.webViewControllerPlus
+          .runJavaScript("window.scrollTo({top: 0, behavior: 'smooth'})");
       _lastRawData = currentRawData;
     }
   }
