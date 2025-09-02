@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter_tex/flutter_tex.dart';
-import 'package:flutter_tex/src/tex_view/utils/widget_meta.dart';
 import 'package:flutter_tex/src/tex_view/utils/style_utils.dart';
+import 'package:flutter_tex/src/tex_view/utils/widget_meta.dart';
 
 class TeXViewGroup extends TeXViewWidget {
   /// A list of [TeXViewWidget].
@@ -22,25 +22,29 @@ class TeXViewGroup extends TeXViewWidget {
 
   /// Style TeXView Widget with [TeXViewStyle].
   final TeXViewStyle? normalItemStyle;
-
   final bool single;
 
-  const TeXViewGroup(
-      {required this.children,
-      required this.onTap,
-      this.style,
-      this.selectedItemStyle,
-      this.normalItemStyle})
-      : onItemsSelection = null,
+  // Add a new field to store the currently selected item
+  final String? selectedItemId;
+
+  const TeXViewGroup({
+    required this.children,
+    required this.onTap,
+    this.style,
+    this.selectedItemStyle,
+    this.normalItemStyle,
+    this.selectedItemId, // Add this parameter
+  })  : onItemsSelection = null,
         single = true;
 
-  const TeXViewGroup.multipleSelection(
-      {required this.children,
-      required this.onItemsSelection,
-      this.style,
-      this.selectedItemStyle,
-      this.normalItemStyle})
-      : onTap = null,
+  const TeXViewGroup.multipleSelection({
+    required this.children,
+    required this.onItemsSelection,
+    this.style,
+    this.selectedItemStyle,
+    this.normalItemStyle,
+    this.selectedItemId, // Add this parameter
+  })  : onTap = null,
         single = false;
 
   @override
@@ -69,5 +73,6 @@ class TeXViewGroup extends TeXViewWidget {
         'selectedItemStyle':
             selectedItemStyle?.initStyle() ?? teXViewDefaultStyle,
         'normalItemStyle': normalItemStyle?.initStyle() ?? teXViewDefaultStyle,
+        'selectedItemId': selectedItemId, // Add this line
       };
 }

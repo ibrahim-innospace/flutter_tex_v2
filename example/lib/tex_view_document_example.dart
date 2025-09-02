@@ -5,23 +5,8 @@ class TeXExample {
   static TeXViewWidget introduction =
       _teXViewWidget(r"""<h4>Flutter \( \rm\TeX \)</h4>""", r"""
              
-      <p>Flutter $ \rm\TeX $ is a Flutter Package to render so many types of equations based on \( \rm\LaTeX \), It also includes full HTML with JavaScript
+      <p>Flutter \( \rm\TeX \) is a Flutter Package to render so many types of equations based on \( \rm\LaTeX \), It also includes full HTML with JavaScript
       support.</p>
-      """);
-
-  static TeXViewWidget longFormulaScroll =
-      _teXViewWidget(r"""<h4>Long Formula Scroll</h4>""", r"""
-
-
-    <p>Some text before the formula:</p>
-    <div style="overflow-x: auto; max-width: 100%;">
-      $$
-     \text{ (Horizontal scroll long formula)} E = mc^2 + \frac{p^2}{2m} + \sum_{i} \frac{(p_i - qA_i)^2}{2m_i} + V(r) + ... 
-      $$
-    </div>
-    <p>Some text after the formula.</p>
-
-
       """);
 
   static TeXViewWidget quadraticEquation =
@@ -60,7 +45,7 @@ class TeXExample {
       _teXViewWidget(r"<h4>Chemistry Equations</h4>", r"""<p>    
      \( \ce{CO2 + C -> 2 CO} \) <br>
      \( \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} \)<br>
-     $$ \ce{x Na(NH4)HPO4 ->[\Delta] (NaPO3)_x + x Nh4 ^ + x H2O} $$ <br>
+     Scroll long formulas in Katex $$ \ce{x Na(NH4)HPO4 ->[\Delta] (NaPO3)_x + x Nh4 ^ + x H2O} $$ <br>
     </p>""");
 
   static TeXViewWidget matrix = _teXViewWidget(r"<h4>Matrix</h4>", r"""<p>
@@ -101,28 +86,24 @@ class TeXExample {
                 borderStyle: TeXViewBorderStyle.groove,
                 borderColor: Colors.green))),
         children: [
-          TeXViewDocument(
-            title,
-            style: const TeXViewStyle(
-                padding: TeXViewPadding.all(10),
-                borderRadius: TeXViewBorderRadius.all(10),
-                textAlign: TeXViewTextAlign.center,
-                // width: 250,
-                margin: TeXViewMargin.zeroAuto(),
-                backgroundColor: Colors.green),
-          ),
-          TeXViewDocument(
-            body,
-            style: const TeXViewStyle(
-                margin: TeXViewMargin.only(top: 10),
-                overflow: TeXViewOverflow.auto),
-          ),
+          TeXViewDocument(title,
+              style: const TeXViewStyle(
+                  padding: TeXViewPadding.all(10),
+                  borderRadius: TeXViewBorderRadius.all(10),
+                  textAlign: TeXViewTextAlign.center,
+                  width: 250,
+                  margin: TeXViewMargin.zeroAuto(),
+                  backgroundColor: Colors.green)),
+          TeXViewDocument(body,
+              style: const TeXViewStyle(margin: TeXViewMargin.only(top: 10)))
         ]);
   }
 }
 
 class TeXViewDocumentExamples extends StatelessWidget {
-  const TeXViewDocumentExamples({super.key});
+  const TeXViewDocumentExamples({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -133,32 +114,54 @@ class TeXViewDocumentExamples extends StatelessWidget {
       ),
       body: TeXView(
         child: TeXViewColumn(children: [
+          TeXViewCustomDetails(
+            title: "Explanation:",
+            iconSize: 14,
+            style: TeXViewStyle(
+              fontStyle: TeXViewFontStyle(
+                fontSize: 14,
+                fontWeight: TeXViewFontWeight.w600,
+              ),
+              backgroundColor: Color(0xFFF3EAFF),
+              padding: TeXViewPadding.all(10),
+              // margin: TeXViewMargin.all(10),
+              borderRadius: TeXViewBorderRadius.only(topLeft: 8, topRight: 8),
+            ),
+            body: TeXViewDocument(
+              "Bangladesh is home to several major rivers, including the Ganges, Brahmaputra, and Meghna. However, the Surma River, while significant, is not classified among the major rivers. It flows through the northeastern part of the country, contributing to the region's rich biodiversity and agricultural landscape.",
+              style: TeXViewStyle(
+                backgroundColor: Color(0xFFF3EAFF),
+                padding: TeXViewPadding.all(10),
+                // margin: TeXViewMargin.all(10),
+                borderRadius:
+                    TeXViewBorderRadius.only(bottomLeft: 8, bottomRight: 8),
+              ),
+            ),
+          ),
           TeXExample.introduction,
           TeXExample.mathML,
           TeXExample.quadraticEquation,
           TeXExample.relationEnergyPrincipalQuantum,
           TeXExample.alignedTag,
           TeXExample.bohrRadius,
-          TeXExample.longFormulaScroll,
           TeXExample.chemistryEquations,
           TeXExample.matrix,
           TeXViewDetails(
-            title: "Collapsible Widget",
+            title: "sdfsdfsdsd",
             style: const TeXViewStyle(backgroundColor: Colors.amber),
             body: TeXExample.matrix,
           ),
-          TeXExample.others
         ]),
         style: const TeXViewStyle(
           margin: TeXViewMargin.all(10),
           elevation: 10,
           borderRadius: TeXViewBorderRadius.all(25),
-          border: TeXViewBorder.all(
-            TeXViewBorderDecoration(
-                borderColor: Colors.blue,
-                borderStyle: TeXViewBorderStyle.solid,
-                borderWidth: 5),
-          ),
+          // border: TeXViewBorder.all(
+          //   TeXViewBorderDecoration(
+          //       borderColor: Colors.blue,
+          //       borderStyle: TeXViewBorderStyle.solid,
+          //       borderWidth: 5),
+          // ),
           backgroundColor: Colors.white,
         ),
       ),
