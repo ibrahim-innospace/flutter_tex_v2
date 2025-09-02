@@ -21,7 +21,7 @@ class TeXView extends StatefulWidget {
   final Widget Function(BuildContext context)? loadingWidgetBuilder;
 
   /// Callback when TEX rendering finishes.
-  // final Function(double height)? onRenderFinished;
+  final Function(double height)? onRenderFinished;
 
   const TeXView({
     super.key,
@@ -30,7 +30,7 @@ class TeXView extends StatefulWidget {
     this.style,
     this.heightOffset = 5.0,
     this.loadingWidgetBuilder,
-    // this.onRenderFinished,
+    this.onRenderFinished,
   });
 
   @override
