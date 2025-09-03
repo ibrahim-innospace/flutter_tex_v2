@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tex/flutter_tex.dart';
+import 'package:flutter_tex_example/icon_constant.dart';
 
 class Quiz {
   final String statement;
   final List<QuizOption> options;
   final String correctOptionId;
+  List<String> selectedOptionIds = [];
 
   Quiz(
       {required this.statement,
@@ -14,9 +16,10 @@ class Quiz {
 
 class QuizOption {
   final String id;
-  final String option;
+  final String content;
+  final bool isCorrect;
 
-  QuizOption(this.id, this.option);
+  QuizOption(this.id, this.content, {this.isCorrect = false});
 }
 
 class TeXViewQuizExample extends StatefulWidget {
@@ -31,8 +34,7 @@ class TeXViewQuizExample extends StatefulWidget {
 
 class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
   int currentQuizIndex = 0;
-  String selectedOptionId = "";
-  bool isWrong = false;
+  bool showAnswerResult = false;
 
   List<Quiz> quizList = [
     Quiz(
@@ -40,19 +42,20 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
       options: [
         QuizOption(
           "id_1",
-          r""" <h2>(A)   \(x = {-b \pm \sqrt{b^2+4ac} \over 2a}\)</h2>""",
+          r"""\(x = {-b \pm \sqrt{b^2+4ac} \over 2a}\)""",
         ),
         QuizOption(
           "id_2",
-          r""" <h2>(B)   \(x = {b \pm \sqrt{b^2-4ac} \over 2a}\)</h2>""",
+          r"""\(x = {b \pm \sqrt{b^2-4ac} \over 2a}\)""",
         ),
         QuizOption(
           "id_3",
-          r""" <h2>(C)   \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\)</h2>""",
+          r"""\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\)""",
+          isCorrect: true,
         ),
         QuizOption(
           "id_4",
-          r""" <h2>(D)   \(x = {-b + \sqrt{b^2+4ac} \over 2a}\)</h2>""",
+          r"""\(x = {-b + \sqrt{b^2+4ac} \over 2a}\)""",
         ),
       ],
       correctOptionId: "id_3",
@@ -63,19 +66,20 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
       options: [
         QuizOption(
           "id_1",
-          r""" <h2>(A)   \( a_0 = \frac{{\hbar ^2 }}{{m_e ke^2 }} \)</h2>""",
+          r"""\( a_0 = \frac{{\hbar ^2 }}{{m_e ke^2 }} \)""",
+          isCorrect: true,
         ),
         QuizOption(
           "id_2",
-          r""" <h2>(B)   \( a_0 = \frac{{\hbar ^2 }}{{m_e ke^3 }} \)</h2>""",
+          r"""\( a_0 = \frac{{\hbar ^2 }}{{m_e ke^3 }} \)""",
         ),
         QuizOption(
           "id_3",
-          r""" <h2>(C)   \( a_0 = \frac{{\hbar ^3 }}{{m_e ke^2 }} \)</h2>""",
+          r"""\( a_0 = \frac{{\hbar ^3 }}{{m_e ke^2 }} \)""",
         ),
         QuizOption(
           "id_4",
-          r""" <h2>(D)   \( a_0 = \frac{{\hbar }}{{m_e ke^2 }} \)</h2>""",
+          r"""\( a_0 = \frac{{\hbar }}{{m_e ke^2 }} \)""",
         ),
       ],
       correctOptionId: "id_1",
@@ -85,19 +89,20 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
       options: [
         QuizOption(
           "id_1",
-          r""" <h2>(A)   \( \ce{CO + C -> 2 CO} \)</h2>""",
+          r"""\( \ce{CO + C -> 2 CO} \)""",
         ),
         QuizOption(
           "id_2",
-          r""" <h2>(B)   \( \ce{CO2 + C ->  CO} \)</h2>""",
+          r"""\( \ce{CO2 + C ->  CO} \)""",
         ),
         QuizOption(
           "id_3",
-          r""" <h2>(C)   \( \ce{CO + C ->  CO} \)</h2>""",
+          r"""\( \ce{CO + C ->  CO} \)""",
         ),
         QuizOption(
           "id_4",
-          r""" <h2>(D)   \( \ce{CO2 + C -> 2 CO} \)</h2>""",
+          r"""\( \ce{CO2 + C -> 2 CO} \)""",
+          isCorrect: true,
         ),
       ],
       correctOptionId: "id_4",
@@ -106,6 +111,8 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
 
   @override
   Widget build(BuildContext context) {
+    Quiz currentQuiz = quizList[currentQuizIndex];
+
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -114,100 +121,334 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
       body: ListView(
         physics: const ScrollPhysics(),
         children: <Widget>[
-          Text(
-            'Quiz ${currentQuizIndex + 1}/${quizList.length}',
-            style: const TextStyle(fontSize: 20),
-            textAlign: TextAlign.center,
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Text(
+              'Quiz ${currentQuizIndex + 1}/${quizList.length}',
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
+            ),
           ),
           TeXView(
             renderingEngine: widget.renderingEngine,
             child: TeXViewColumn(children: [
-              TeXViewDocument(quizList[currentQuizIndex].statement,
-                  style:
-                      const TeXViewStyle(textAlign: TeXViewTextAlign.center)),
+              TeXViewDocument(currentQuiz.statement,
+                  style: const TeXViewStyle(
+                      textAlign: TeXViewTextAlign.center,
+                      padding: TeXViewPadding.all(16))),
               TeXViewGroup(
-                  children: quizList[currentQuizIndex]
-                      .options
-                      .map((QuizOption option) {
-                    return TeXViewGroupItem(
-                        rippleEffect: false,
-                        id: option.id,
-                        child: TeXViewDocument(option.option,
-                            style: const TeXViewStyle(
-                                padding: TeXViewPadding.all(10))));
-                  }).toList(),
-                  selectedItemStyle: TeXViewStyle(
-                      borderRadius: const TeXViewBorderRadius.all(10),
-                      border: TeXViewBorder.all(TeXViewBorderDecoration(
-                          borderWidth: 3, borderColor: Colors.green[900])),
-                      margin: const TeXViewMargin.all(10)),
-                  normalItemStyle:
-                      const TeXViewStyle(margin: TeXViewMargin.all(10)),
-                  onTap: (id) {
-                    selectedOptionId = id;
-                    setState(() {
-                      isWrong = false;
-                    });
-                  })
+                selectedIds: currentQuiz.selectedOptionIds,
+                children: currentQuiz.options.asMap().entries.map((entry) {
+                  int optionIndex = entry.key;
+                  QuizOption currentOption = entry.value;
+
+                  bool shouldUseSelectedStyle = showAnswerResult
+                      ? (currentOption.isCorrect ||
+                          currentQuiz.selectedOptionIds
+                              .contains(currentOption.id))
+                      : currentQuiz.selectedOptionIds
+                          .contains(currentOption.id);
+
+                  return TeXViewGroupItem(
+                    id: currentOption.id,
+                    rippleEffect: false,
+                    isSelected: shouldUseSelectedStyle,
+                    normalStyle: QuizUIHelpers.getUnselectedOptionStyle(),
+                    selectedStyle: QuizUIHelpers.getOptionStyleBasedOnState(
+                        currentOption, currentQuiz, showAnswerResult),
+                    onTap: !showAnswerResult
+                        ? (selectedId) {
+                            setState(() {
+                              if (currentQuiz.selectedOptionIds
+                                  .contains(selectedId)) {
+                                currentQuiz.selectedOptionIds
+                                    .remove(selectedId);
+                              } else {
+                                currentQuiz.selectedOptionIds.clear();
+                                currentQuiz.selectedOptionIds.add(selectedId);
+                              }
+                            });
+                          }
+                        : null,
+                    child: TeXViewDocument(
+                        QuizUIHelpers.getOptionDisplayHtml(currentOption,
+                            optionIndex, currentQuiz, showAnswerResult),
+                        style:
+                            const TeXViewStyle(padding: TeXViewPadding.all(0))),
+                  );
+                }).toList(),
+              )
             ]),
             style: const TeXViewStyle(
-              margin: TeXViewMargin.all(5),
-              padding: TeXViewPadding.all(10),
-              borderRadius: TeXViewBorderRadius.all(10),
+              margin: TeXViewMargin.all(16),
+              padding: TeXViewPadding.all(16),
+              borderRadius: TeXViewBorderRadius.all(12),
               border: TeXViewBorder.all(
                 TeXViewBorderDecoration(
                     borderColor: Colors.blue,
                     borderStyle: TeXViewBorderStyle.solid,
-                    borderWidth: 5),
+                    borderWidth: 2),
               ),
               backgroundColor: Colors.white,
             ),
           ),
-          if (isWrong)
-            const Padding(
-              padding: EdgeInsets.all(20),
-              child: Text(
-                "Wrong answer!!! Please choose a correct option.",
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 18, color: Colors.red),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20.0),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton(
+                  onPressed: currentQuizIndex > 0
+                      ? () {
+                          setState(() {
+                            currentQuizIndex--;
+                            showAnswerResult = false;
+                          });
+                        }
+                      : null,
+                  child: const Text("Previous"),
+                ),
+                if (!showAnswerResult &&
+                    currentQuiz.selectedOptionIds.isNotEmpty)
+                  ElevatedButton(
+                    onPressed: () {
+                      setState(() {
+                        showAnswerResult = true;
+                      });
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.orange,
+                      foregroundColor: Colors.white,
+                    ),
+                    child: const Text("Check Answer"),
+                  ),
+                if (showAnswerResult)
+                  ElevatedButton(
+                    onPressed: currentQuizIndex < quizList.length - 1
+                        ? () {
+                            setState(() {
+                              currentQuizIndex++;
+                              showAnswerResult = false;
+                            });
+                          }
+                        : () {
+                            // Quiz completed
+                            showDialog(
+                              context: context,
+                              builder: (context) => AlertDialog(
+                                title: const Text("Quiz Completed!"),
+                                content: const Text(
+                                    "Congratulations! You've completed all questions."),
+                                actions: [
+                                  TextButton(
+                                    onPressed: () {
+                                      Navigator.of(context).pop();
+                                      setState(() {
+                                        currentQuizIndex = 0;
+                                        showAnswerResult = false;
+                                        for (var quiz in quizList) {
+                                          quiz.selectedOptionIds.clear();
+                                        }
+                                      });
+                                    },
+                                    child: const Text("Restart Quiz"),
+                                  ),
+                                ],
+                              ),
+                            );
+                          },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.green,
+                      foregroundColor: Colors.white,
+                    ),
+                    child: Text(currentQuizIndex < quizList.length - 1
+                        ? "Next"
+                        : "Finish"),
+                  ),
+              ],
+            ),
+          ),
+          if (showAnswerResult)
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: Container(
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: currentQuiz.selectedOptionIds
+                          .contains(currentQuiz.correctOptionId)
+                      ? Colors.green.shade50
+                      : Colors.red.shade50,
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(
+                    color: currentQuiz.selectedOptionIds
+                            .contains(currentQuiz.correctOptionId)
+                        ? Colors.green
+                        : Colors.red,
+                    width: 1,
+                  ),
+                ),
+                child: Text(
+                  currentQuiz.selectedOptionIds
+                          .contains(currentQuiz.correctOptionId)
+                      ? "✅ Correct! Well done!"
+                      : "❌ Incorrect. The correct answer is highlighted in green.",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    color: currentQuiz.selectedOptionIds
+                            .contains(currentQuiz.correctOptionId)
+                        ? Colors.green.shade800
+                        : Colors.red.shade800,
+                  ),
+                ),
               ),
             ),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              ElevatedButton(
-                onPressed: () {
-                  setState(() {
-                    if (currentQuizIndex > 0) {
-                      selectedOptionId = "";
-                      currentQuizIndex--;
-                    }
-                  });
-                },
-                child: const Text("Previous"),
-              ),
-              ElevatedButton(
-                onPressed: () {
-                  setState(() {
-                    if (selectedOptionId ==
-                        quizList[currentQuizIndex].correctOptionId) {
-                      selectedOptionId = "";
-                      if (currentQuizIndex != quizList.length - 1) {
-                        currentQuizIndex++;
-                      }
-                    } else {
-                      isWrong = true;
-                    }
-                  });
-                },
-                child: const Text("Next"),
-              ),
-            ],
-          )
         ],
       ),
     );
+  }
+}
+
+class QuizUIHelpers {
+  static TeXViewStyle getUnselectedOptionStyle() => const TeXViewStyle(
+        margin: TeXViewMargin.only(bottom: 12),
+        padding: TeXViewPadding.all(16),
+        borderRadius: TeXViewBorderRadius.all(12),
+        border: TeXViewBorder.all(
+          TeXViewBorderDecoration(
+            borderColor: Color(0xFFE0E0E0),
+            borderStyle: TeXViewBorderStyle.solid,
+            borderWidth: 2,
+          ),
+        ),
+      );
+
+  static TeXViewStyle getOptionStyleBasedOnState(
+    QuizOption option,
+    Quiz currentQuiz,
+    bool showAnswerResult,
+  ) {
+    if (!showAnswerResult) {
+      return getSelectedButNotYetCheckedStyle();
+    }
+
+    bool isCorrectAnswer = option.isCorrect;
+    bool isUserSelectedOption =
+        currentQuiz.selectedOptionIds.contains(option.id);
+
+    if (isCorrectAnswer && isUserSelectedOption) {
+      return getCorrectAndSelectedStyle();
+    } else if (isCorrectAnswer && !isUserSelectedOption) {
+      return getCorrectButNotSelectedStyle();
+    } else if (!isCorrectAnswer && isUserSelectedOption) {
+      return getWrongAndSelectedStyle();
+    } else {
+      return getUnselectedOptionStyle();
+    }
+  }
+
+  static TeXViewStyle getSelectedButNotYetCheckedStyle() {
+    return const TeXViewStyle(
+      margin: TeXViewMargin.only(bottom: 12),
+      padding: TeXViewPadding.all(16),
+      borderRadius: TeXViewBorderRadius.all(12),
+      backgroundColor: Color(0xFFF3EAFF),
+      border: TeXViewBorder.all(
+        TeXViewBorderDecoration(
+          borderColor: Color(0xFFF3EAFF),
+          borderStyle: TeXViewBorderStyle.solid,
+          borderWidth: 2,
+        ),
+      ),
+    );
+  }
+
+  static TeXViewStyle getCorrectAndSelectedStyle() {
+    return const TeXViewStyle(
+      margin: TeXViewMargin.only(bottom: 12),
+      padding: TeXViewPadding.all(16),
+      borderRadius: TeXViewBorderRadius.all(12),
+      backgroundColor: Color(0xFFE8F5E9),
+      border: TeXViewBorder.all(
+        TeXViewBorderDecoration(
+          borderColor: Color(0xFFE8F5E9),
+          borderStyle: TeXViewBorderStyle.solid,
+          borderWidth: 2,
+        ),
+      ),
+    );
+  }
+
+  static TeXViewStyle getCorrectButNotSelectedStyle() {
+    return const TeXViewStyle(
+      margin: TeXViewMargin.only(bottom: 12),
+      padding: TeXViewPadding.all(16),
+      borderRadius: TeXViewBorderRadius.all(12),
+      backgroundColor: Color(0xFFFFFFFF),
+      border: TeXViewBorder.all(
+        TeXViewBorderDecoration(
+          borderColor: Color(0xFF0DA45A),
+          borderStyle: TeXViewBorderStyle.solid,
+          borderWidth: 2,
+        ),
+      ),
+    );
+  }
+
+  static TeXViewStyle getWrongAndSelectedStyle() {
+    return const TeXViewStyle(
+      margin: TeXViewMargin.only(bottom: 12),
+      padding: TeXViewPadding.all(16),
+      borderRadius: TeXViewBorderRadius.all(12),
+      backgroundColor: Color(0xFFFFEBEE),
+      border: TeXViewBorder.all(
+        TeXViewBorderDecoration(
+          borderColor: Color(0xFFFFEBEE),
+          borderStyle: TeXViewBorderStyle.solid,
+          borderWidth: 2,
+        ),
+      ),
+    );
+  }
+
+  static String getOptionDisplayHtml(
+    QuizOption option,
+    int optionIndex,
+    Quiz currentQuiz,
+    bool showAnswerResult,
+  ) {
+    final optionLabel = String.fromCharCode(65 + optionIndex);
+    final isUserSelectedOption =
+        currentQuiz.selectedOptionIds.contains(option.id);
+
+    String checkboxIconHtml =
+        isUserSelectedOption ? IconConstant.selected : IconConstant.notSelected;
+
+    if (showAnswerResult) {
+      bool isCorrectAnswer = option.isCorrect;
+      bool isUserSelectedOption =
+          currentQuiz.selectedOptionIds.contains(option.id);
+
+      if (isCorrectAnswer) {
+        checkboxIconHtml = IconConstant.greenCheck;
+      } else if (!isCorrectAnswer && isUserSelectedOption) {
+        checkboxIconHtml = IconConstant.redCheck;
+      } else {
+        checkboxIconHtml = IconConstant.notSelected;
+      }
+    }
+
+    return """
+      <div style="display: flex; align-items: center; justify-content: space-between;">
+        <div style="display: flex; align-items: center; flex: 1;">
+          <span style="background-color: transparent; color: #333; padding: 2px 8px; border-radius: 20px; margin-right: 12px; font-weight: bold;">($optionLabel)</span>
+          <span style="flex: 1;">${option.content}</span>
+        </div>
+        $checkboxIconHtml
+      </div>
+    """;
   }
 }
