@@ -344,23 +344,25 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
               TeXViewGroup(
                 selectedIds: currentQuiz.selectedOptionIds,
                 children: currentQuiz.options.asMap().entries.map((entry) {
-                  int optionIndex = entry.key;
-                  QuizOption currentOption = entry.value;
+                  final option = entry.value;
+                  final index = entry.key;
 
+                  // Determine if this option should be shown as selected
                   bool shouldUseSelectedStyle = showAnswerResult
-                      ? (currentOption.isCorrect ||
-                          currentQuiz.selectedOptionIds
-                              .contains(currentOption.id))
-                      : currentQuiz.selectedOptionIds
-                          .contains(currentOption.id);
+                      ? (option.isCorrect ||
+                          currentQuiz.selectedOptionIds.contains(option.id))
+                      : currentQuiz.selectedOptionIds.contains(option.id);
 
                   return TeXViewGroupItem(
-                    id: currentOption.id,
+                    id: option.id,
                     rippleEffect: false,
                     isSelected: shouldUseSelectedStyle,
                     normalStyle: QuizUIHelpers.getUnselectedOptionStyle(),
                     selectedStyle: QuizUIHelpers.getOptionStyleBasedOnState(
-                        currentOption, currentQuiz, showAnswerResult),
+                      option,
+                      currentQuiz,
+                      showAnswerResult,
+                    ),
                     onTap: !showAnswerResult
                         ? (selectedId) {
                             setState(() {
@@ -369,20 +371,62 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
                                 currentQuiz.selectedOptionIds
                                     .remove(selectedId);
                               } else {
-                                currentQuiz.selectedOptionIds.clear();
+                                // currentQuiz.selectedOptionIds.clear();
                                 currentQuiz.selectedOptionIds.add(selectedId);
                               }
                             });
                           }
                         : null,
                     child: TeXViewDocument(
-                        QuizUIHelpers.getOptionDisplayHtml(currentOption,
-                            optionIndex, currentQuiz, showAnswerResult),
-                        style:
-                            const TeXViewStyle(padding: TeXViewPadding.all(0))),
+                      QuizUIHelpers.getOptionDisplayHtml(
+                          option, index, currentQuiz, showAnswerResult),
+                      style: const TeXViewStyle(padding: TeXViewPadding.all(0)),
+                    ),
                   );
                 }).toList(),
-              )
+              ),
+              // TeXViewGroup(
+              //   selectedIds: currentQuiz.selectedOptionIds,
+              //   children: currentQuiz.options.asMap().entries.map((entry) {
+              //     int optionIndex = entry.key;
+              //     QuizOption currentOption = entry.value;
+
+              //     bool shouldUseSelectedStyle = showAnswerResult
+              //         ? (currentOption.isCorrect ||
+              //             currentQuiz.selectedOptionIds
+              //                 .contains(currentOption.id))
+              //         : currentQuiz.selectedOptionIds
+              //             .contains(currentOption.id);
+
+              //     return TeXViewGroupItem(
+              //       id: currentOption.id,
+              //       rippleEffect: false,
+              //       isSelected: shouldUseSelectedStyle,
+              //       normalStyle: QuizUIHelpers.getUnselectedOptionStyle(),
+              //       selectedStyle: QuizUIHelpers.getOptionStyleBasedOnState(
+              //           currentOption, currentQuiz, showAnswerResult),
+              //       onTap: !showAnswerResult
+              //           ? (selectedId) {
+              //               setState(() {
+              //                 if (currentQuiz.selectedOptionIds
+              //                     .contains(selectedId)) {
+              //                   currentQuiz.selectedOptionIds
+              //                       .remove(selectedId);
+              //                 } else {
+              //                   currentQuiz.selectedOptionIds.clear();
+              //                   currentQuiz.selectedOptionIds.add(selectedId);
+              //                 }
+              //               });
+              //             }
+              //           : null,
+              //       child: TeXViewDocument(
+              //           QuizUIHelpers.getOptionDisplayHtml(currentOption,
+              //               optionIndex, currentQuiz, showAnswerResult),
+              //           style:
+              //               const TeXViewStyle(padding: TeXViewPadding.all(0))),
+              //     );
+              //   }).toList(),
+              // )
             ]),
             style: const TeXViewStyle(
               margin: TeXViewMargin.all(16),

@@ -1,4 +1,7 @@
 # This is a generated file; do not edit or check into version control.
-webview_flutter=/Users/ibrahimlokman/.pub-cache/hosted/pub.dev/webview_flutter-4.5.0/
-webview_flutter_android=/Users/ibrahimlokman/.pub-cache/hosted/pub.dev/webview_flutter_android-3.16.3/
-webview_flutter_wkwebview=/Users/ibrahimlokman/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.10.2/
+sqflite=/Users/ibrahimlokman/.pub-cache/hosted/pub.dev/sqflite-2.4.1/
+sqflite_android=/Users/ibrahimlokman/.pub-cache/hosted/pub.dev/sqflite_android-2.4.0/
+sqflite_darwin=/Users/ibrahimlokman/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1+1/
+webview_flutter=/Users/ibrahimlokman/.pub-cache/hosted/pub.dev/webview_flutter-4.13.0/
+webview_flutter_android=/Users/ibrahimlokman/.pub-cache/hosted/pub.dev/webview_flutter_android-4.10.0/
+webview_flutter_wkwebview=/Users/ibrahimlokman/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.23.0/
