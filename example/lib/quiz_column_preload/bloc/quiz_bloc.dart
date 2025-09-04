@@ -1,9 +1,9 @@
 // ============== REPOSITORY (quiz_repository.dart) ==============
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_tex_example/quiz/models/quiz_model.dart';
-import 'package:flutter_tex_example/quiz/repository/quiz_repository.dart';
-import 'package:flutter_tex_example/quiz/service/quiz_prebuilder_service.dart';
+import 'package:flutter_tex_example/quiz_column_preload/models/quiz_model.dart';
+import 'package:flutter_tex_example/quiz_column_preload/repository/quiz_repository.dart';
+import 'package:flutter_tex_example/quiz_column_preload/service/quiz_prebuilder_service.dart';
 
 // ============== BLOC EVENTS (optimized_quiz_event.dart) ==============
 abstract class OptimizedQuizEvent {

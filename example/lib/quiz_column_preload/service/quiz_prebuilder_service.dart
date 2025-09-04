@@ -1,6 +1,6 @@
 // ============== PREBUILDER SERVICE (quiz_prebuilder_service.dart) ==============
-import 'package:flutter_tex_example/quiz/models/quiz_model.dart';
-import 'package:flutter_tex_example/quiz/ui/tex_view_brritto_quiz_example.dart';
+import 'package:flutter_tex_example/quiz_column_preload/models/quiz_model.dart';
+import 'package:flutter_tex_example/quiz_column_preload/ui/tex_view_brritto_quiz_example.dart';
 
 class QuizPrebuilderService {
   // Prebuild only the question HTML

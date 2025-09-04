@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:flutter_tex_example/quiz/models/quiz_model.dart';
+import 'package:flutter_tex_example/quiz_column_preload/models/quiz_model.dart';
 
 class OptimizedQuizRepository {
   final List<String> _quizFiles = [

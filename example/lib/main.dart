@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tex/flutter_tex.dart';
-import 'package:flutter_tex_example/quiz/ui/tex_view_brritto_quiz_example.dart';
+import 'package:flutter_tex_example/quiz_column_preload/ui/tex_view_brritto_quiz_example.dart';
 import 'package:flutter_tex_example/tex_view_document_example.dart';
 import 'package:flutter_tex_example/tex_view_expand.dart';
 import 'package:flutter_tex_example/tex_view_fonts_example.dart';

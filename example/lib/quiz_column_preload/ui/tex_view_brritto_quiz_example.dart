@@ -2,9 +2,9 @@ import 'package:flutter_tex/flutter_tex.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_tex_example/katex_fonts.dart';
-import 'package:flutter_tex_example/quiz/bloc/quiz_bloc.dart';
-import 'package:flutter_tex_example/quiz/models/quiz_model.dart';
-import 'package:flutter_tex_example/quiz/repository/quiz_repository.dart';
+import 'package:flutter_tex_example/quiz_column_preload/bloc/quiz_bloc.dart';
+import 'package:flutter_tex_example/quiz_column_preload/models/quiz_model.dart';
+import 'package:flutter_tex_example/quiz_column_preload/repository/quiz_repository.dart';
 import 'custom_widget.dart';
 
 // ============== UI HELPERS (quiz_ui_helpers.dart) ==============
