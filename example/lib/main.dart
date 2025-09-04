@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tex/flutter_tex.dart';
+import 'package:flutter_tex_example/quiz/ui/tex_view_brritto_quiz_example.dart';
 import 'package:flutter_tex_example/tex_view_document_example.dart';
 import 'package:flutter_tex_example/tex_view_expand.dart';
 import 'package:flutter_tex_example/tex_view_fonts_example.dart';
@@ -84,6 +85,8 @@ class _TeXViewFullExampleState extends State<TeXViewFullExample> {
             height: 30,
             color: Colors.transparent,
           ),
+          getExampleButton(
+              context, 'OptimizedQuizView Examples', OptimizedQuizView()),
           getExampleButton(
               context,
               'TeXViewExpandDocumen Examples',

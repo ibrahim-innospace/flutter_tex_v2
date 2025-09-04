@@ -1,0 +1,604 @@
+{
+    "message": "Returning 9 questions for topicId: 6753e9545ca5e64876450aa6",
+    "questions": [
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "675685deeec3b61a85e6383c",
+            "createdBy": "6731ec752829335b3d31fd1a",
+            "updatedBy": "6731ec752829335b3d31fd1a",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;Kvb we&aelig;vbx &lsquo;mvBGUvmj&rsquo; k&otilde;wU c&Eacute;^g e&Aring;envi KGib? </span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;R wKD &micro;&Iuml;vIqvi</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Kvj&AElig; wc &circ;mvqvbmb</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&permil;m &circ;R wmsMvi</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&permil;BP &permil; jvwW&AElig;</span></p>",
+                    "isCorrect": true
+                }
+            ],
+            "difficulty": "Medium",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "GSTগুচ্ছ A",
+                "_id": "673585c491e5b43023d092df"
+            },
+            "associatedWithSubject": {
+                "subjectName": "জীববিজ্ঞান ১ম পত্র",
+                "_id": "6753d7d38dc6e06ad413e944"
+            },
+            "associatedWithChapter": {
+                "chapterName": "০১. কোষ ও এর গঠন",
+                "_id": "6753de1848da6c82594bfeab"
+            },
+            "associatedWithTopic": {
+                "topicName": "<span style=\"padding-right: 2px; float: left;\">০১. </span><p><span data-sheets-root=\"1\">কোষ ও একটি আদর্শ উদ্ভিদকোষের গঠন</span></p>",
+                "_id": "6753e9545ca5e64876450aa6"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "GST",
+                    "year": [
+                        "2023"
+                    ],
+                    "_id": "667b98acfeba2c2321be23b0"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 1,
+            "sequenceInChapter": 1,
+            "sequenceInSubject": 1,
+            "sequenceInCourse": 788,
+            "createdAt": "2024-12-09T05:53:34.549Z",
+            "updatedAt": "2025-03-10T07:04:46.935Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "67568614eec3b61a85e64176",
+            "createdBy": "6731ec752829335b3d31fd1a",
+            "updatedBy": "6731ec752829335b3d31fd1a",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 14pt; line-height: 107%; font-family: Lecture; letter-spacing: -0.1pt;\">&circ;KvGli wbtm&dagger;Z c`v^&AElig; bq@ </span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">wcMGg&acute;&Yuml;</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&permil;bRvBg</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">A&Aring;vjKvjGqW</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;bKUvi</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "<p><span style=\"font-size: 14px; line-height: 107%; font-family: Lecture;\">&circ;iwRb, &circ;Uwbb, Mvg, j&Aring;vGU&Yacute;, A&Aring;vjKvjGqW, &Scaron;Re &permil;wmW D&laquo;&frac14;vqx &circ;Zj, LwbR c`v^&AElig; c&Eacute;f&Dagger;wZ &circ;Kvl wbtm&dagger;Z c`v^&AElig;|</span></p>",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "GSTগুচ্ছ A",
+                "_id": "673585c491e5b43023d092df"
+            },
+            "associatedWithSubject": {
+                "subjectName": "জীববিজ্ঞান ১ম পত্র",
+                "_id": "6753d7d38dc6e06ad413e944"
+            },
+            "associatedWithChapter": {
+                "chapterName": "০১. কোষ ও এর গঠন",
+                "_id": "6753de1848da6c82594bfeab"
+            },
+            "associatedWithTopic": {
+                "topicName": "<span style=\"padding-right: 2px; float: left;\">০১. </span><p><span data-sheets-root=\"1\">কোষ ও একটি আদর্শ উদ্ভিদকোষের গঠন</span></p>",
+                "_id": "6753e9545ca5e64876450aa6"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "IU",
+                    "year": [
+                        "2019"
+                    ],
+                    "_id": "668cdeac2a256584284a6922"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 2,
+            "sequenceInChapter": 2,
+            "sequenceInSubject": 2,
+            "sequenceInCourse": 789,
+            "createdAt": "2024-12-09T05:54:28.259Z",
+            "updatedAt": "2025-03-10T07:04:46.935Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "6756865eeec3b61a85e648e1",
+            "createdBy": "6731ec752829335b3d31fd1a",
+            "updatedBy": "6731ec752829335b3d31fd1a",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;Kvl Avwe&Oacute;&bull;vGii RbK@ </span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Robert Brown</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Robert Kurl</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Bon Mohl</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Robertson</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">mwVK D&icirc;i &circ;bB</span></p>",
+                    "isCorrect": true
+                }
+            ],
+            "explanation": "<p><span style=\"font-size: 14px; line-height: 107%; font-family: Lecture;\">&circ;Kvl Avwe&Oacute;&bull;vi KGib ievU&AElig; &uuml;K 1665 mvGj| RxweZ &circ;Kvl c&Eacute;^g ch&AElig;Ge&THORN;Y KGib A&Aring;v&acute;&Yuml;wb fb wjDGqb&uuml;K 1674 mvGj|</span></p>",
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "GSTগুচ্ছ A",
+                "_id": "673585c491e5b43023d092df"
+            },
+            "associatedWithSubject": {
+                "subjectName": "জীববিজ্ঞান ১ম পত্র",
+                "_id": "6753d7d38dc6e06ad413e944"
+            },
+            "associatedWithChapter": {
+                "chapterName": "০১. কোষ ও এর গঠন",
+                "_id": "6753de1848da6c82594bfeab"
+            },
+            "associatedWithTopic": {
+                "topicName": "<span style=\"padding-right: 2px; float: left;\">০১. </span><p><span data-sheets-root=\"1\">কোষ ও একটি আদর্শ উদ্ভিদকোষের গঠন</span></p>",
+                "_id": "6753e9545ca5e64876450aa6"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "IU",
+                    "year": [
+                        "2019"
+                    ],
+                    "_id": "668cdeac2a256584284a6922"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 3,
+            "sequenceInChapter": 3,
+            "sequenceInSubject": 3,
+            "sequenceInCourse": 792,
+            "createdAt": "2024-12-09T05:55:42.969Z",
+            "updatedAt": "2025-03-10T07:04:46.935Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "6756869eeec3b61a85e64f83",
+            "createdBy": "6731ec752829335b3d31fd1a",
+            "updatedBy": "6731ec752829335b3d31fd1a",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;c&Eacute;vK&Aring;vwiIwUK </span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: Calibri; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">(Prokaryotic)</span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> RxGei D`vniY nGjv</span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: Lecture; mso-fareast-font-family: Calibri; mso-hansi-font-family: Lecture; mso-bidi-font-family: 'Times New Roman'; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; letter-spacing: -.1pt; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> </span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">gm I dvb&AElig;</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">fvBivm I e&Aring;vKGUwiqv</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">e&Aring;vKGUwiqv I &Scaron;kevj</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-width: 78%; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">e&Aring;vKGUwiqv I mvqvGbve&Aring;vKGUwiqv</span></p>",
+                    "isCorrect": true
+                }
+            ],
+            "difficulty": "Medium",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "GSTগুচ্ছ A",
+                "_id": "673585c491e5b43023d092df"
+            },
+            "associatedWithSubject": {
+                "subjectName": "জীববিজ্ঞান ১ম পত্র",
+                "_id": "6753d7d38dc6e06ad413e944"
+            },
+            "associatedWithChapter": {
+                "chapterName": "০১. কোষ ও এর গঠন",
+                "_id": "6753de1848da6c82594bfeab"
+            },
+            "associatedWithTopic": {
+                "topicName": "<span style=\"padding-right: 2px; float: left;\">০১. </span><p><span data-sheets-root=\"1\">কোষ ও একটি আদর্শ উদ্ভিদকোষের গঠন</span></p>",
+                "_id": "6753e9545ca5e64876450aa6"
+            },
+            "appearedInInstitutions": [
+                {
+                    "institutionShortName": "JnU",
+                    "year": [
+                        "2015"
+                    ],
+                    "_id": "667b9831feba2c2321be2354"
+                }
+            ],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 4,
+            "sequenceInChapter": 4,
+            "sequenceInSubject": 4,
+            "sequenceInCourse": 794,
+            "createdAt": "2024-12-09T05:56:46.652Z",
+            "updatedAt": "2025-03-10T07:04:46.935Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "675686b6eec3b61a85e65306",
+            "createdBy": "6731ec752829335b3d31fd1a",
+            "updatedBy": "6731ec752829335b3d31fd1a",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">meGPGq &THORN;z`&Euml;GKvlx Rxe &circ;KvbwU?</span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-font-width: 90%; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">fvBivm</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-font-width: 90%; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">e&Aring;vKGUwiqv</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-font-width: 90%; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">wiKwkqv</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-font-width: 90%; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">gvBGKv&micro;&Iuml;vRgv</span></p>",
+                    "isCorrect": true
+                }
+            ],
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "GSTগুচ্ছ A",
+                "_id": "673585c491e5b43023d092df"
+            },
+            "associatedWithSubject": {
+                "subjectName": "জীববিজ্ঞান ১ম পত্র",
+                "_id": "6753d7d38dc6e06ad413e944"
+            },
+            "associatedWithChapter": {
+                "chapterName": "০১. কোষ ও এর গঠন",
+                "_id": "6753de1848da6c82594bfeab"
+            },
+            "associatedWithTopic": {
+                "topicName": "<span style=\"padding-right: 2px; float: left;\">০১. </span><p><span data-sheets-root=\"1\">কোষ ও একটি আদর্শ উদ্ভিদকোষের গঠন</span></p>",
+                "_id": "6753e9545ca5e64876450aa6"
+            },
+            "appearedInInstitutions": [],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 5,
+            "sequenceInChapter": 5,
+            "sequenceInSubject": 5,
+            "sequenceInCourse": 796,
+            "createdAt": "2024-12-09T05:57:10.562Z",
+            "updatedAt": "2025-03-10T07:04:46.935Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "675686d1eec3b61a85e65886",
+            "createdBy": "6731ec752829335b3d31fd1a",
+            "updatedBy": "6731ec752829335b3d31fd1a",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">gvbyGli &circ;gvUi wbDiGbi &Scaron;`N&AElig;&Aring; KZ?</span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">1.37 cm</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">1.37 m</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">13.7 cm</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">13.7 mm</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "GSTগুচ্ছ A",
+                "_id": "673585c491e5b43023d092df"
+            },
+            "associatedWithSubject": {
+                "subjectName": "জীববিজ্ঞান ১ম পত্র",
+                "_id": "6753d7d38dc6e06ad413e944"
+            },
+            "associatedWithChapter": {
+                "chapterName": "০১. কোষ ও এর গঠন",
+                "_id": "6753de1848da6c82594bfeab"
+            },
+            "associatedWithTopic": {
+                "topicName": "<span style=\"padding-right: 2px; float: left;\">০১. </span><p><span data-sheets-root=\"1\">কোষ ও একটি আদর্শ উদ্ভিদকোষের গঠন</span></p>",
+                "_id": "6753e9545ca5e64876450aa6"
+            },
+            "appearedInInstitutions": [],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 6,
+            "sequenceInChapter": 6,
+            "sequenceInSubject": 6,
+            "sequenceInCourse": 798,
+            "createdAt": "2024-12-09T05:57:37.050Z",
+            "updatedAt": "2025-03-10T07:04:46.935Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "675686edeec3b61a85e65da1",
+            "createdBy": "6731ec752829335b3d31fd1a",
+            "updatedBy": "6731ec752829335b3d31fd1a",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">wbGPi &circ;KvbwU mvaviY Dw&laquo;&iquest;`GKvGl Abycw&Otilde;&copy;Z?</span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;mjyGjvR</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;mw&acute;&Yuml;&Egrave;Ij</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;KvlwSw&Iacute;&Iuml;</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">ivBGevGmvg</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "difficulty": "Medium",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "GSTগুচ্ছ A",
+                "_id": "673585c491e5b43023d092df"
+            },
+            "associatedWithSubject": {
+                "subjectName": "জীববিজ্ঞান ১ম পত্র",
+                "_id": "6753d7d38dc6e06ad413e944"
+            },
+            "associatedWithChapter": {
+                "chapterName": "০১. কোষ ও এর গঠন",
+                "_id": "6753de1848da6c82594bfeab"
+            },
+            "associatedWithTopic": {
+                "topicName": "<span style=\"padding-right: 2px; float: left;\">০১. </span><p><span data-sheets-root=\"1\">কোষ ও একটি আদর্শ উদ্ভিদকোষের গঠন</span></p>",
+                "_id": "6753e9545ca5e64876450aa6"
+            },
+            "appearedInInstitutions": [],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 7,
+            "sequenceInChapter": 7,
+            "sequenceInSubject": 7,
+            "sequenceInCourse": 800,
+            "createdAt": "2024-12-09T05:58:05.327Z",
+            "updatedAt": "2025-03-10T07:04:46.935Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "67568707eec3b61a85e6608a",
+            "createdBy": "6731ec752829335b3d31fd1a",
+            "updatedBy": "6731ec752829335b3d31fd1a",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;KvGli gGa&Aring; </span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">DNA </span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Dcw&Otilde;&copy;Z ^vGK bv@</span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: Calibri; background: red; mso-highlight: red; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\"> </span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">wbDwK&Ntilde;qvm</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">MjwM ewW</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">gvBGUvKw&acute;&pound;&Egrave;qv</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: Lecture; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">&circ;K&Ntilde;vGiv&micro;&Iuml;v&Otilde;&iexcl;</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "GSTগুচ্ছ A",
+                "_id": "673585c491e5b43023d092df"
+            },
+            "associatedWithSubject": {
+                "subjectName": "জীববিজ্ঞান ১ম পত্র",
+                "_id": "6753d7d38dc6e06ad413e944"
+            },
+            "associatedWithChapter": {
+                "chapterName": "০১. কোষ ও এর গঠন",
+                "_id": "6753de1848da6c82594bfeab"
+            },
+            "associatedWithTopic": {
+                "topicName": "<span style=\"padding-right: 2px; float: left;\">০১. </span><p><span data-sheets-root=\"1\">কোষ ও একটি আদর্শ উদ্ভিদকোষের গঠন</span></p>",
+                "_id": "6753e9545ca5e64876450aa6"
+            },
+            "appearedInInstitutions": [],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 8,
+            "sequenceInChapter": 8,
+            "sequenceInSubject": 8,
+            "sequenceInCourse": 801,
+            "createdAt": "2024-12-09T05:58:31.792Z",
+            "updatedAt": "2025-03-10T07:04:46.935Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "6756871eeec3b61a85e66732",
+            "createdBy": "6731ec752829335b3d31fd1a",
+            "updatedBy": "6731ec752829335b3d31fd1a",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Avw` &circ;KvGli </span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: 'Times New Roman',serif; mso-fareast-font-family: Calibri; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">DNA-</span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">i AvKvi</span><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Symbol; mso-ascii-font-family: Lecture; mso-fareast-font-family: Calibri; mso-hansi-font-family: Lecture; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-char-type: symbol; mso-symbol-font-family: Symbol;\"><span style=\"mso-char-type: symbol; mso-symbol-font-family: Symbol;\">-</span></span></p>",
+            "options": [
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">m&fnof;&ograve;vKvi</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">e&dagger;&icirc;vKvi</span></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">mwc&AElig;jvKvi</span></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p><span style=\"font-size: 14.0pt; line-height: 107%; font-family: Lecture; mso-fareast-font-family: Calibri; mso-bidi-font-family: 'Times New Roman'; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">w&laquo;&frac14;m&fnof;&ograve;vKvi</span></p>",
+                    "isCorrect": false
+                }
+            ],
+            "difficulty": "Easy",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "GSTগুচ্ছ A",
+                "_id": "673585c491e5b43023d092df"
+            },
+            "associatedWithSubject": {
+                "subjectName": "জীববিজ্ঞান ১ম পত্র",
+                "_id": "6753d7d38dc6e06ad413e944"
+            },
+            "associatedWithChapter": {
+                "chapterName": "০১. কোষ ও এর গঠন",
+                "_id": "6753de1848da6c82594bfeab"
+            },
+            "associatedWithTopic": {
+                "topicName": "<span style=\"padding-right: 2px; float: left;\">০১. </span><p><span data-sheets-root=\"1\">কোষ ও একটি আদর্শ উদ্ভিদকোষের গঠন</span></p>",
+                "_id": "6753e9545ca5e64876450aa6"
+            },
+            "appearedInInstitutions": [],
+            "tags": [],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 9,
+            "sequenceInChapter": 9,
+            "sequenceInSubject": 9,
+            "sequenceInCourse": 803,
+            "createdAt": "2024-12-09T05:58:54.644Z",
+            "updatedAt": "2025-03-10T07:04:46.935Z",
+            "__v": 0,
+            "linkedQuestions": []
+        }
+    ],
+    "questionLength": 9,
+    "totalQuestions": 9,
+    "learnedCount": 0
+}

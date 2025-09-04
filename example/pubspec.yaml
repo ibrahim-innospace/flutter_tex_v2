@@ -13,6 +13,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_bloc: ^9.1.1
   flutter_tex:
     path: ../
   webview_flutter_web: ^0.2.2+3
@@ -25,12 +26,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - assets/data/
+    - assets/fonts/
     - assets/flutter_tex_banner.png
-    - fonts/Army.ttf
-    - fonts/Budhrg.ttf
-    - fonts/CELTG.ttf
-    - fonts/hillock.ttf
-    - fonts/intimacy.ttf
-    - fonts/SansationLight.ttf
-    - fonts/slenmini.ttf
-    - fonts/SubaccuzRegular.ttf
+   

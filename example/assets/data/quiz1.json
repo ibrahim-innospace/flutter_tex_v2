@@ -1,0 +1,668 @@
+{
+    "message": "Returning 10 questions for subjectId: 66689ff77eb4daf81c28faff",
+    "questions": [
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a8855",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "11 A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #28002-1f8aafa4-5c28-4898-b280-9e06f299d51d",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "\n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 32,
+            "sequenceInChapter": 78,
+            "sequenceInSubject": 617,
+            "sequenceInCourse": 1343,
+            "createdAt": "2024-12-26T18:51:01.010Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a8862",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "12 A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #21002-20a14222-56ef-4d11-99a4-5abfb079c855",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "\n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 32,
+            "sequenceInChapter": 78,
+            "sequenceInSubject": 617,
+            "sequenceInCourse": 1343,
+            "createdAt": "2024-12-26T18:51:01.019Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a8876",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "13 A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #3502-acca6e11-eb87-4bea-90b0-c3cf337c0feb",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "\n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 33,
+            "sequenceInChapter": 79,
+            "sequenceInSubject": 618,
+            "sequenceInCourse": 1344,
+            "createdAt": "2024-12-26T18:51:01.039Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a8888",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "14 A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #10502-463b5ae8-dfa2-4bce-8f49-e0784b09c49e",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "\n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 34,
+            "sequenceInChapter": 80,
+            "sequenceInSubject": 619,
+            "sequenceInCourse": 1345,
+            "createdAt": "2024-12-26T18:51:01.052Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a88b4",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "15 A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #17502-a697f55d-12bb-46db-b126-47b18cc07cab",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "\n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 35,
+            "sequenceInChapter": 81,
+            "sequenceInSubject": 620,
+            "sequenceInCourse": 1346,
+            "createdAt": "2024-12-26T18:51:01.102Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a88c1",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #7003-e44e949c-53f2-40be-9c1a-fd8805cefc5f",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "\n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 35,
+            "sequenceInChapter": 81,
+            "sequenceInSubject": 620,
+            "sequenceInCourse": 1346,
+            "createdAt": "2024-12-26T18:51:01.108Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a88cf",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #14003-47521418-17d4-4b12-a45f-4769fa8539c8",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "\n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 35,
+            "sequenceInChapter": 81,
+            "sequenceInSubject": 620,
+            "sequenceInCourse": 1346,
+            "createdAt": "2024-12-26T18:51:01.124Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a88fc",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #24503-67693e77-ed62-443d-8cc6-661ae7370e9b",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "18 \n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 36,
+            "sequenceInChapter": 82,
+            "sequenceInSubject": 621,
+            "sequenceInCourse": 1347,
+            "createdAt": "2024-12-26T18:51:01.178Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a890b",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "19 A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #3-75359644-0d98-4dde-a61f-4c0ba922f282",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "\n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 36,
+            "sequenceInChapter": 82,
+            "sequenceInSubject": 621,
+            "sequenceInCourse": 1347,
+            "createdAt": "2024-12-26T18:51:01.190Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        },
+        {
+            "isPassage": false,
+            "questionCompositeFactor": 1,
+            "_id": "676da595d4ad1610ed6a8930",
+            "createdBy": "676cdb7aa851f5f4d0b646ee",
+            "updatedBy": "676cdb7aa851f5f4d0b646ee",
+            "isActive": true,
+            "isDeleted": false,
+            "questionText": "20 A current-carrying conductor produces a magnetic field around it. What rule is used to determine the direction of this magnetic field? besides nafees #31503-cdf36816-859d-4d22-8d7a-8167f3636421",
+            "options": [
+                {
+                    "text": "<p>​5.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​5.33 × 10<sup>10</sup> kg​<br></p>",
+                    "isCorrect": true
+                },
+                {
+                    "text": "<p>​4.33 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                },
+                {
+                    "text": "<p>​6.5 × 10<sup>–11</sup> kg​<br></p>",
+                    "isCorrect": false
+                }
+            ],
+            "explanation": "\n       this is a explanation text\n    ",
+            "difficulty": "Hard",
+            "questionType": "MCQ",
+            "associatedWithClass": {
+                "className": "Admission Testa",
+                "_id": "6668975c7eb4daf81c28f8d6"
+            },
+            "associatedWithCourse": {
+                "courseName": "ইঞ্জিনিয়ারিং পদার্থবিজ্ঞান",
+                "_id": "66689c227eb4daf81c28f9de"
+            },
+            "associatedWithSubject": {
+                "subjectName": "পদার্থবিজ্ঞান ১ম পত্র",
+                "_id": "66689ff77eb4daf81c28faff"
+            },
+            "associatedWithChapter": {
+                "chapterName": "ভেক্টর",
+                "_id": "6687c2282a2565842842498d"
+            },
+            "associatedWithTopic": {
+                "topicName": "<p><span lang=\"BN\" style=\"font-size: 12.0pt; line-height: 107%; font-family: SolaimanLipi; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: BN;\">দুই বা ততোধিক ভেক্টরের লব্ধি নির্ণয়</span></p>",
+                "_id": "668a64a72a25658428458805"
+            },
+            "appearedInInstitutions": [],
+            "tags": [
+                "math",
+                "popular"
+            ],
+            "isLearnMode": true,
+            "isTestMode": true,
+            "sequenceInTopic": 37,
+            "sequenceInChapter": 83,
+            "sequenceInSubject": 622,
+            "sequenceInCourse": 1348,
+            "createdAt": "2024-12-26T18:51:01.229Z",
+            "updatedAt": "2025-03-12T05:08:22.475Z",
+            "__v": 0,
+            "linkedQuestions": []
+        }
+    ],
+    "questionLength": 10,
+    "totalQuestions": 20,
+    "learnedCount": 10
+}

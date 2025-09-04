@@ -1,17 +1,155 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_tex/flutter_tex.dart';
 import 'package:flutter_tex_example/icon_constant.dart';
+import 'dart:convert';
 
+import 'package:flutter_tex_example/katex_fonts.dart';
+
+// JSON Model Classes
+class QuestionResponse {
+  final String message;
+  final List<Question> questions;
+  final int questionLength;
+  final int totalQuestions;
+  final int learnedCount;
+
+  QuestionResponse({
+    required this.message,
+    required this.questions,
+    required this.questionLength,
+    required this.totalQuestions,
+    required this.learnedCount,
+  });
+
+  factory QuestionResponse.fromJson(Map<String, dynamic> json) {
+    return QuestionResponse(
+      message: json['message'] ?? '',
+      questions: (json['questions'] as List<dynamic>?)
+              ?.map((q) => Question.fromJson(q))
+              .toList() ??
+          [],
+      questionLength: json['questionLength'] ?? 0,
+      totalQuestions: json['totalQuestions'] ?? 0,
+      learnedCount: json['learnedCount'] ?? 0,
+    );
+  }
+}
+
+class Question {
+  final String id;
+  final String questionText;
+  final List<QuestionOption> options;
+  final String difficulty;
+  final String questionType;
+  final bool isPassage;
+  final int questionCompositeFactor;
+  final bool isActive;
+  final bool isDeleted;
+  final bool isLearnMode;
+  final bool isTestMode;
+  final int sequenceInTopic;
+  final int sequenceInChapter;
+  final int sequenceInSubject;
+  final int sequenceInCourse;
+
+  Question({
+    required this.id,
+    required this.questionText,
+    required this.options,
+    required this.difficulty,
+    required this.questionType,
+    required this.isPassage,
+    required this.questionCompositeFactor,
+    required this.isActive,
+    required this.isDeleted,
+    required this.isLearnMode,
+    required this.isTestMode,
+    required this.sequenceInTopic,
+    required this.sequenceInChapter,
+    required this.sequenceInSubject,
+    required this.sequenceInCourse,
+  });
+
+  factory Question.fromJson(Map<String, dynamic> json) {
+    return Question(
+      id: json['_id'] ?? '',
+      questionText: json['questionText'] ?? '',
+      options: (json['options'] as List<dynamic>?)
+              ?.map((o) => QuestionOption.fromJson(o))
+              .toList() ??
+          [],
+      difficulty: json['difficulty'] ?? 'Medium',
+      questionType: json['questionType'] ?? 'MCQ',
+      isPassage: json['isPassage'] ?? false,
+      questionCompositeFactor: json['questionCompositeFactor'] ?? 1,
+      isActive: json['isActive'] ?? true,
+      isDeleted: json['isDeleted'] ?? false,
+      isLearnMode: json['isLearnMode'] ?? true,
+      isTestMode: json['isTestMode'] ?? true,
+      sequenceInTopic: json['sequenceInTopic'] ?? 0,
+      sequenceInChapter: json['sequenceInChapter'] ?? 0,
+      sequenceInSubject: json['sequenceInSubject'] ?? 0,
+      sequenceInCourse: json['sequenceInCourse'] ?? 0,
+    );
+  }
+}
+
+class QuestionOption {
+  final String text;
+  final bool isCorrect;
+
+  QuestionOption({
+    required this.text,
+    required this.isCorrect,
+  });
+
+  factory QuestionOption.fromJson(Map<String, dynamic> json) {
+    return QuestionOption(
+      text: json['text'] ?? '',
+      isCorrect: json['isCorrect'] ?? false,
+    );
+  }
+}
+
+// Original Quiz Models (for compatibility with existing UI)
 class Quiz {
   final String statement;
   final List<QuizOption> options;
   final String correctOptionId;
   List<String> selectedOptionIds = [];
 
-  Quiz(
-      {required this.statement,
-      required this.options,
-      required this.correctOptionId});
+  Quiz({
+    required this.statement,
+    required this.options,
+    required this.correctOptionId,
+  });
+
+  // Factory method to convert from Question to Quiz
+  factory Quiz.fromQuestion(Question question) {
+    List<QuizOption> quizOptions = [];
+    String correctId = '';
+
+    for (int i = 0; i < question.options.length; i++) {
+      String optionId = 'option_${i + 1}';
+      quizOptions.add(
+        QuizOption(
+          optionId,
+          question.options[i].text,
+          isCorrect: question.options[i].isCorrect,
+        ),
+      );
+      if (question.options[i].isCorrect) {
+        correctId = optionId;
+      }
+    }
+
+    return Quiz(
+      statement: question.questionText,
+      options: quizOptions,
+      correctOptionId: correctId,
+    );
+  }
 }
 
 class QuizOption {
@@ -25,8 +163,10 @@ class QuizOption {
 class TeXViewQuizExample extends StatefulWidget {
   final TeXViewRenderingEngine renderingEngine;
 
-  const TeXViewQuizExample(
-      {super.key, this.renderingEngine = const TeXViewRenderingEngine.katex()});
+  const TeXViewQuizExample({
+    super.key,
+    this.renderingEngine = const TeXViewRenderingEngine.katex(),
+  });
 
   @override
   State<TeXViewQuizExample> createState() => _TeXViewQuizExampleState();
@@ -35,101 +175,166 @@ class TeXViewQuizExample extends StatefulWidget {
 class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
   int currentQuizIndex = 0;
   bool showAnswerResult = false;
+  List<Quiz> quizList = [];
+  bool isLoading = true;
+  String? errorMessage;
 
-  List<Quiz> quizList = [
-    Quiz(
-      statement: r"""<h3>What is the correct form of quadratic formula?</h3>""",
-      options: [
-        QuizOption(
-          "id_1",
-          r"""\(x = {-b \pm \sqrt{b^2+4ac} \over 2a}\)""",
-        ),
-        QuizOption(
-          "id_2",
-          r"""\(x = {b \pm \sqrt{b^2-4ac} \over 2a}\)""",
-        ),
-        QuizOption(
-          "id_3",
-          r"""\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\)""",
-          isCorrect: true,
-        ),
-        QuizOption(
-          "id_4",
-          r"""\(x = {-b + \sqrt{b^2+4ac} \over 2a}\)""",
-        ),
-      ],
-      correctOptionId: "id_3",
-    ),
-    Quiz(
-      statement:
-          r"""<h3>Choose the correct mathematical form of Bohr's Radius.</h3>""",
-      options: [
-        QuizOption(
-          "id_1",
-          r"""\( a_0 = \frac{{\hbar ^2 }}{{m_e ke^2 }} \)""",
-          isCorrect: true,
-        ),
-        QuizOption(
-          "id_2",
-          r"""\( a_0 = \frac{{\hbar ^2 }}{{m_e ke^3 }} \)""",
-        ),
-        QuizOption(
-          "id_3",
-          r"""\( a_0 = \frac{{\hbar ^3 }}{{m_e ke^2 }} \)""",
-        ),
-        QuizOption(
-          "id_4",
-          r"""\( a_0 = \frac{{\hbar }}{{m_e ke^2 }} \)""",
-        ),
-      ],
-      correctOptionId: "id_1",
-    ),
-    Quiz(
-      statement: r"""<h3>Select the correct Chemical Balanced Equation.</h3>""",
-      options: [
-        QuizOption(
-          "id_1",
-          r"""\( \ce{CO + C -> 2 CO} \)""",
-        ),
-        QuizOption(
-          "id_2",
-          r"""\( \ce{CO2 + C ->  CO} \)""",
-        ),
-        QuizOption(
-          "id_3",
-          r"""\( \ce{CO + C ->  CO} \)""",
-        ),
-        QuizOption(
-          "id_4",
-          r"""\( \ce{CO2 + C -> 2 CO} \)""",
-          isCorrect: true,
-        ),
-      ],
-      correctOptionId: "id_4",
-    ),
-  ];
+  @override
+  void initState() {
+    super.initState();
+    loadQuizData();
+  }
+
+  Future<void> loadQuizData() async {
+    try {
+      // Simulate loading JSON data
+      // In real app, this would be an HTTP request
+      await Future.delayed(const Duration(seconds: 1));
+
+      // Sample JSON string (you would get this from API)
+      String jsonString = await getJsonString();
+
+      Map<String, dynamic> jsonData = json.decode(jsonString);
+      QuestionResponse response = QuestionResponse.fromJson(jsonData);
+
+      // Convert Question objects to Quiz objects
+      setState(() {
+        quizList = response.questions
+            .map((question) => Quiz.fromQuestion(question))
+            .toList();
+        isLoading = false;
+      });
+    } catch (e) {
+      setState(() {
+        errorMessage = 'Failed to load quiz data: $e';
+        isLoading = false;
+      });
+    }
+  }
+
+  // This would be replaced with actual API response
+  Future<String> getJsonString() async {
+    // For testing with English
+    // return await rootBundle.loadString('assets/data/quiz_questions_sample.json');
+
+    // For production with Bengali
+    return await rootBundle.loadString('assets/data/quiz_questions.json');
+  }
 
   @override
   Widget build(BuildContext context) {
+    print("Rebuilding TeXViewQuizExample");
+    if (isLoading) {
+      return Scaffold(
+        appBar: AppBar(title: const Text("TeXView Quiz")),
+        body: const Center(child: CircularProgressIndicator()),
+      );
+    }
+
+    if (errorMessage != null) {
+      return Scaffold(
+        appBar: AppBar(title: const Text("TeXView Quiz")),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Icon(Icons.error_outline, size: 60, color: Colors.red),
+              const SizedBox(height: 16),
+              Text(errorMessage!, textAlign: TextAlign.center),
+              const SizedBox(height: 16),
+              ElevatedButton(
+                onPressed: () {
+                  setState(() {
+                    isLoading = true;
+                    errorMessage = null;
+                  });
+                  loadQuizData();
+                },
+                child: const Text("Retry"),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+
+    if (quizList.isEmpty) {
+      return Scaffold(
+        appBar: AppBar(title: const Text("TeXView Quiz")),
+        body: const Center(child: Text("No quiz questions available")),
+      );
+    }
+
     Quiz currentQuiz = quizList[currentQuizIndex];
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color(0xFFF7FAFB),
       appBar: AppBar(
+        backgroundColor: Colors.white,
         title: const Text("TeXView Quiz"),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.refresh),
+            onPressed: () {
+              setState(() {
+                isLoading = true;
+                currentQuizIndex = 0;
+                showAnswerResult = false;
+                for (var quiz in quizList) {
+                  quiz.selectedOptionIds.clear();
+                }
+              });
+              loadQuizData();
+            },
+          ),
+        ],
       ),
       body: ListView(
         physics: const ScrollPhysics(),
         children: <Widget>[
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Text(
-              'Quiz ${currentQuizIndex + 1}/${quizList.length}',
-              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-              textAlign: TextAlign.center,
+          ColoredBox(
+            color: Colors.white,
+            child: Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Text(
+                    'Quiz ${currentQuizIndex + 1}/${quizList.length}',
+                    style: const TextStyle(
+                        fontSize: 12, fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                Expanded(
+                  child: LinearProgressIndicator(
+                    borderRadius: BorderRadius.circular(10),
+                    minHeight: 8,
+                    value: quizList.isEmpty
+                        ? 0
+                        : (currentQuizIndex + 1) / quizList.length,
+                    valueColor: const AlwaysStoppedAnimation<Color>(
+                      Colors.cyan,
+                    ),
+                  ),
+                ),
+
+                //percentage
+                Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Text(
+                    quizList.isEmpty
+                        ? '0%'
+                        : '${(((currentQuizIndex + 1) / quizList.length) * 100).floor()}%',
+                    style: const TextStyle(
+                        fontSize: 12, fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
             ),
           ),
           TeXView(
+            fonts: teXViewFontList,
             renderingEngine: widget.renderingEngine,
             child: TeXViewColumn(children: [
               TeXViewDocument(currentQuiz.statement,
@@ -181,11 +386,11 @@ class _TeXViewQuizExampleState extends State<TeXViewQuizExample> {
             ]),
             style: const TeXViewStyle(
               margin: TeXViewMargin.all(16),
-              padding: TeXViewPadding.all(16),
+              padding: TeXViewPadding.all(12),
               borderRadius: TeXViewBorderRadius.all(12),
               border: TeXViewBorder.all(
                 TeXViewBorderDecoration(
-                    borderColor: Colors.blue,
+                    // borderColor: Colors.blue,
                     borderStyle: TeXViewBorderStyle.solid,
                     borderWidth: 2),
               ),
