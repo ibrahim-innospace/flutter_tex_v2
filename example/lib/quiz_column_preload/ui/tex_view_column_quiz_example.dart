@@ -10,53 +10,30 @@ import 'custom_widget.dart';
 // ============== UI HELPERS (quiz_ui_helpers.dart) ==============
 
 class QuizUIHelpers {
-  static TeXViewStyle getUnselectedOptionStyle() => const TeXViewStyle(
-        margin: TeXViewMargin.only(bottom: 12),
-        padding: TeXViewPadding.all(16),
-        borderRadius: TeXViewBorderRadius.all(12),
-        border: TeXViewBorder.all(
-          TeXViewBorderDecoration(
-            borderColor: Color(0xFFE0E0E0),
-            borderStyle: TeXViewBorderStyle.solid,
-            borderWidth: 1,
-          ),
-        ),
-      );
-
-  static TeXViewStyle getOptionStyleBasedOnState(
+  static TeXViewStyle getOptionStyle(
     QuizOption option,
     Quiz currentQuiz,
     bool showResult,
   ) {
-    if (!showResult) {
-      // Selected but not yet checked
-      return const TeXViewStyle(
-        margin: TeXViewMargin.only(bottom: 12),
-        padding: TeXViewPadding.all(16),
-        borderRadius: TeXViewBorderRadius.all(12),
-        backgroundColor: Color(0xFFF3EAFF),
-        border: TeXViewBorder.all(
-          TeXViewBorderDecoration(
-            borderColor: Color(0xFFF3EAFF),
-            borderStyle: TeXViewBorderStyle.solid,
-            borderWidth: 1,
-          ),
-        ),
-      );
+    final isSelected = currentQuiz.selectedOptionIds.contains(option.id);
+
+    if (showResult) {
+      final isCorrectOption = option.isCorrect;
+      final isSelectedOption =
+          currentQuiz.selectedOptionIds.contains(option.id);
+
+      if (isCorrectOption && isSelectedOption) {
+        return _correctSelectedStyle();
+      } else if (isCorrectOption && !isSelectedOption) {
+        return _correctNotSelectedStyle();
+      } else if (!isCorrectOption && isSelectedOption) {
+        return _incorrectSelectedStyle();
+      }
+    } else if (isSelected) {
+      return _selectedStyle();
     }
 
-    final isCorrectOption = option.isCorrect;
-    final isSelectedOption = currentQuiz.selectedOptionIds.contains(option.id);
-
-    if (isCorrectOption && isSelectedOption) {
-      return _correctSelectedStyle();
-    } else if (isCorrectOption && !isSelectedOption) {
-      return _correctNotSelectedStyle();
-    } else if (!isCorrectOption && isSelectedOption) {
-      return _incorrectSelectedStyle();
-    } else {
-      return getUnselectedOptionStyle();
-    }
+    return _defaultStyle();
   }
 
   static TeXViewStyle _correctSelectedStyle() => const TeXViewStyle(
@@ -95,6 +72,33 @@ class QuizUIHelpers {
         border: TeXViewBorder.all(
           TeXViewBorderDecoration(
             borderColor: Color(0xFFFFEBEE),
+            borderStyle: TeXViewBorderStyle.solid,
+            borderWidth: 1,
+          ),
+        ),
+      );
+
+  static TeXViewStyle _selectedStyle() => const TeXViewStyle(
+        margin: TeXViewMargin.only(bottom: 12),
+        padding: TeXViewPadding.all(16),
+        borderRadius: TeXViewBorderRadius.all(12),
+        backgroundColor: Color(0xFFF3EAFF),
+        border: TeXViewBorder.all(
+          TeXViewBorderDecoration(
+            borderColor: Color(0xFFF3EAFF),
+            borderStyle: TeXViewBorderStyle.solid,
+            borderWidth: 1,
+          ),
+        ),
+      );
+
+  static TeXViewStyle _defaultStyle() => const TeXViewStyle(
+        margin: TeXViewMargin.only(bottom: 12),
+        padding: TeXViewPadding.all(16),
+        borderRadius: TeXViewBorderRadius.all(12),
+        border: TeXViewBorder.all(
+          TeXViewBorderDecoration(
+            borderColor: Color(0xFFE0E0E0),
             borderStyle: TeXViewBorderStyle.solid,
             borderWidth: 1,
           ),
@@ -358,64 +362,42 @@ class _OptimizedQuizContent extends StatelessWidget {
             borderRadius: TeXViewBorderRadius.all(12),
             backgroundColor: Colors.white,
           ),
-          child: TeXViewColumn(children: [
-            // Question
-            TeXViewDocument(
-              state.currentContent.questionHtml,
-              style: const TeXViewStyle(
-                textAlign: TeXViewTextAlign.left,
-                padding: TeXViewPadding.only(top: 12, bottom: 24),
+          child: TeXViewColumn(
+            children: [
+              // Question
+              TeXViewDocument(
+                state.currentContent.questionHtml,
+                style: const TeXViewStyle(
+                  textAlign: TeXViewTextAlign.left,
+                  padding: TeXViewPadding.only(top: 12, bottom: 24),
+                ),
               ),
-            ),
-            // Options using TeXViewGroup
-            TeXViewGroup(
-              selectedIds: state.currentContent.quiz.selectedOptionIds,
-              children: state.currentContent.quiz.options
-                  .asMap()
-                  .entries
-                  .map((entry) {
+              // Options with tap handlers
+              ...state.currentContent.quiz.options.asMap().entries.map((entry) {
                 final option = entry.value;
                 final index = entry.key;
 
-                // Determine if this option should be shown as selected
-                bool shouldUseSelectedStyle = state.showResult
-                    ? (option.isCorrect ||
-                        state.currentContent.quiz.selectedOptionIds
-                            .contains(option.id))
-                    : state.currentContent.quiz.selectedOptionIds
-                        .contains(option.id);
-
-                return TeXViewGroupItem(
+                return TeXViewInkWell(
                   id: option.id,
                   rippleEffect: false,
-                  isSelected: shouldUseSelectedStyle,
-                  normalStyle: QuizUIHelpers.getUnselectedOptionStyle(),
-                  selectedStyle: QuizUIHelpers.getOptionStyleBasedOnState(
+                  child: TeXViewDocument(
+                    state.currentContent.optionsHtml[option.id] ?? '',
+                    style: const TeXViewStyle(),
+                  ),
+                  style: QuizUIHelpers.getOptionStyle(
                     option,
                     state.currentContent.quiz,
                     state.showResult,
                   ),
                   onTap: !state.showResult
-                      ? (selectedId) {
-                          bloc.add(SelectQuizOption(selectedId));
-                        }
-                      : null,
-                  child: TeXViewDocument(
-                    QuizUIHelpers.getOptionHtml(
-                      option,
-                      index,
-                      state.currentContent.quiz,
-                      state.showResult,
-                    ),
-                    style: const TeXViewStyle(padding: TeXViewPadding.all(0)),
-                  ),
+                      ? (id) => bloc.add(SelectQuizOption(id))
+                      : (id) {
+                          // Do nothing if showing result
+                        },
                 );
-              }).toList(),
-            ),
-          ]),
-          onRenderFinished: (height) {
-            print('Quiz rendered at ${DateTime.now()} with height: $height');
-          },
+              }),
+            ],
+          ),
         ),
       ),
     );
