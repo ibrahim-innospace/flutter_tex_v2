@@ -7,6 +7,7 @@ import 'package:flutter_tex_example/tex_view_image_video_example.dart';
 import 'package:flutter_tex_example/tex_view_ink_well_example.dart';
 import 'package:flutter_tex_example/tex_view_markdown_example.dart';
 import 'package:flutter_tex_example/tex_view_quiz_example.dart';
+import 'package:flutter_tex_example/tex_view_quiz_example_group.dart';
 import 'package:flutter_tex_example/tex2svg_example.dart';
 import 'package:flutter_tex_example/tex_widget_example.dart';
 
@@ -68,6 +69,7 @@ class _TeXViewFullExampleState extends State<TeXViewFullExample> {
          
               )),
           getExampleButton(context, 'Quiz Example', const TeXViewQuizExample()),
+          getExampleButton(context, 'Group Quiz Example', const TeXViewGroupQuizExample()),
           getExampleButton(context, 'TeX2SVG Example', const TeX2SVGExample()),
           getExampleButton(
               context, 'Markdown Examples', const TeXViewMarkdownExamples()),

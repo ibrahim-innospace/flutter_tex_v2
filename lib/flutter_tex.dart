@@ -25,3 +25,6 @@ export 'package:flutter_tex/src/tex_widget/utils/enums.dart';
 export 'package:flutter_tex/src/tex_widget/tex_widget.dart';
 export 'package:flutter_svg/flutter_svg.dart';
 export 'package:flutter_tex/src/tex_view/widgets/customdetails.dart';
+export 'package:flutter_tex/src/tex_view/widgets/group.dart';
+export 'package:flutter_tex/src/tex_view/widgets/group_multiple.dart';
+export 'package:flutter_tex/src/tex_view/widgets/group_item.dart';
