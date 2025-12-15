@@ -89,6 +89,12 @@ class TeXViewState extends State<TeXView>
     if (currentRawData != _oldRawData) {
       await teXRenderingController.webViewControllerPlus
           .runJavaScript('initTeXViewMobile($currentRawData);');
+      
+      // Scroll to top
+      teXRenderingController.webViewControllerPlus
+          .runJavaScriptReturningResult(
+              "window.scrollTo({top: 0, behavior: 'smooth'})");
+      
       _oldRawData = currentRawData;
     }
   }
